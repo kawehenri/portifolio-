@@ -97,11 +97,11 @@ document.addEventListener('click', e => {
 const typedEl = document.getElementById('typed-text');
 
 const phrases = [
-  'Estudante de Direito',
-  'Entusiasta de LegalTech',
-  'Defensor da Justiça Social',
-  'Desenvolvedor em formação',
-  'Direito + Tecnologia',
+  'Engenheiro de Software',
+  'Desenvolvedor Full Stack',
+  'Apaixonado por tecnologia',
+  'Python · PHP · Laravel · React',
+  'Construindo soluções reais',
 ];
 
 let phraseIndex  = 0;

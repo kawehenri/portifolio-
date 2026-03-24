@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfólio profissional — Estudante de Direito com foco em tecnologia e impacto social." />
-  <title>Portfólio | Estudante de Direito &amp; Tecnologia</title>
+  <meta name="description" content="Portfólio de Kawê Henrique — Engenharia de Software, desenvolvimento web e sistemas." />
+  <title>Kawê Henrique | Engenharia de Software</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,9 +12,9 @@
   <!-- ======================== NAVEGAÇÃO ======================== -->
   <header class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="#home" class="nav-logo">Kawe<span>.</span></a>
+      <a href="#home" class="nav-logo">kawê<span>.</span></a>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
         <span></span>
         <span></span>
         <span></span>
@@ -22,11 +22,11 @@
 
       <nav class="nav-menu" id="navMenu">
         <ul>
-          <li><a href="#home"    class="nav-link">Início</a></li>
-          <li><a href="#sobre"   class="nav-link">Sobre</a></li>
-          <li><a href="#projetos" class="nav-link">Projetos</a></li>
-          <li><a href="#juridico" class="nav-link">Área Jurídica</a></li>
-          <li><a href="#contato" class="nav-link">Contato</a></li>
+          <li><a href="#home"       class="nav-link">Início</a></li>
+          <li><a href="#sobre"      class="nav-link">Sobre</a></li>
+          <li><a href="#projetos"   class="nav-link">Projetos</a></li>
+          <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+          <li><a href="#contato"    class="nav-link">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -38,29 +38,31 @@
     <section id="home" class="section section-home">
       <div class="home-content reveal">
         <p class="home-greeting">Olá, eu sou</p>
-        <h1 class="home-name">Kawe<span class="accent">.</span></h1>
+        <h1 class="home-name">Kawê Henrique<span class="accent">.</span></h1>
         <h2 class="home-tagline">
           <span id="typed-text"></span><span class="cursor-blink">|</span>
         </h2>
         <p class="home-sub">
-          Estudante de Direito com interesse em justiça social e tecnologia —
-          construindo pontes entre o mundo jurídico e o digital.
+          Estudante de Engenharia de Software, estagiário em desenvolvimento de sistemas
+          e apaixonado por construir soluções que fazem diferença — do back-end ao front-end.
         </p>
         <div class="home-actions">
           <a href="#projetos" class="btn btn-primary">Ver projetos</a>
           <a href="#contato"  class="btn btn-outline">Entrar em contato</a>
         </div>
       </div>
+
       <div class="home-visual reveal reveal-delay-1">
         <div class="avatar-ring">
           <div class="avatar-inner">
-            <span class="avatar-icon">⚖️</span>
+            <span class="avatar-icon">💻</span>
           </div>
         </div>
-        <div class="floating-badge badge-1">Direito</div>
-        <div class="floating-badge badge-2">Tecnologia</div>
-        <div class="floating-badge badge-3">Impacto Social</div>
+        <div class="floating-badge badge-1">Python</div>
+        <div class="floating-badge badge-2">Laravel</div>
+        <div class="floating-badge badge-3">React</div>
       </div>
+
       <a href="#sobre" class="scroll-down" aria-label="Rolar para baixo">
         <span></span>
       </a>
@@ -78,59 +80,73 @@
         <div class="sobre-grid">
           <div class="sobre-text reveal">
             <p>
-              Sou estudante de <strong>Direito</strong> com olhar voltado para a
-              interseção entre o ordenamento jurídico e as transformações
-              tecnológicas que moldam a sociedade contemporânea. Acredito que
-              compreender o Direito hoje exige dominar ferramentas digitais e
-              pensar de forma <strong>interdisciplinar</strong>.
+              Sou <strong>Kawê Henrique</strong>, estudante de
+              <strong>Engenharia de Software</strong> pela Universidade do Distrito
+              Federal (UDF), com formação técnica em Desenvolvimento de Sistemas pelo
+              <strong>SENAI-DF</strong>. Atuo como estagiário na
+              <strong>DF Informática</strong>, onde desenvolvo e mantenho sistemas web
+              utilizando PHP, Laravel, HTML, CSS e JavaScript.
             </p>
             <p>
-              Ao longo da graduação, desenvolvi projetos acadêmicos sobre
-              <strong>seletividade penal</strong>, acesso à justiça e o papel
-              da tecnologia na democratização do sistema jurídico. Minha
-              trajetória combina <strong>pensamento crítico</strong> com
-              habilidades práticas em desenvolvimento de software.
+              Tenho experiência prática com <strong>back-end</strong> (Python, PHP,
+              Laravel), <strong>front-end</strong> (HTML, CSS, JavaScript, React) e
+              <strong>banco de dados</strong> (MySQL). Gosto de resolver problemas
+              complexos com código limpo e boas práticas de engenharia de software.
             </p>
             <p>
-              Meu objetivo é atuar como profissional jurídico capaz de
-              <strong>resolver problemas complexos</strong> com criatividade,
-              ética e domínio tecnológico — contribuindo para uma justiça
-              mais acessível e eficiente.
+              Tenho interesse em <strong>Inteligência Artificial</strong>,
+              <strong>Cibersegurança</strong> e automação. Estou em constante evolução
+              técnica e aprimorando meu inglês para colaborar em projetos globais.
             </p>
+
+            <!-- Localização e contato rápido -->
+            <div class="sobre-meta">
+              <span class="meta-item">📍 Samambaia Norte – DF</span>
+              <span class="meta-item">🎓 UDF — Eng. de Software</span>
+              <span class="meta-item">💼 Estagiário na DF Informática</span>
+            </div>
           </div>
 
           <div class="sobre-skills reveal reveal-delay-1">
-            <h3 class="skills-title">Competências</h3>
+            <h3 class="skills-title">Competências Técnicas</h3>
             <ul class="skills-list">
               <li class="skill-item">
-                <span class="skill-label">Pesquisa Jurídica</span>
-                <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                <span class="skill-label">Python</span>
+                <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
               </li>
               <li class="skill-item">
-                <span class="skill-label">Pensamento Crítico</span>
-                <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
-              </li>
-              <li class="skill-item">
-                <span class="skill-label">Python / Flet</span>
-                <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
-              </li>
-              <li class="skill-item">
-                <span class="skill-label">HTML &amp; CSS</span>
+                <span class="skill-label">PHP / Laravel</span>
                 <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
               </li>
               <li class="skill-item">
-                <span class="skill-label">Redação Acadêmica</span>
+                <span class="skill-label">HTML &amp; CSS</span>
+                <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-label">JavaScript / React</span>
+                <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-label">MySQL</span>
+                <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-label">Git &amp; GitHub</span>
                 <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
               </li>
             </ul>
 
             <div class="sobre-badges">
-              <span class="badge-tag">Direito Penal</span>
-              <span class="badge-tag">LegalTech</span>
               <span class="badge-tag">Python</span>
-              <span class="badge-tag">Banco de Dados</span>
-              <span class="badge-tag">Justiça Social</span>
-              <span class="badge-tag">Direito Digital</span>
+              <span class="badge-tag">PHP</span>
+              <span class="badge-tag">Laravel</span>
+              <span class="badge-tag">React</span>
+              <span class="badge-tag">MySQL</span>
+              <span class="badge-tag">Git</span>
+              <span class="badge-tag">REST API</span>
+              <span class="badge-tag">Arduino</span>
+              <span class="badge-tag">IoT</span>
+              <span class="badge-tag">Scrum</span>
             </div>
           </div>
         </div>
@@ -144,12 +160,48 @@
           <span class="section-tag">O que construí</span>
           <h2 class="section-title">Projetos</h2>
           <div class="section-line"></div>
+          <p class="section-desc">
+            Projetos acadêmicos e pessoais — do protótipo ao deploy.
+          </p>
         </div>
 
         <div class="projects-grid">
 
-          <!-- Card 1 -->
-          <article class="project-card reveal">
+          <!-- Card 1 — Projeto destaque -->
+          <article class="project-card project-card-featured reveal">
+            <div class="card-top">
+              <div class="card-icon">🌱</div>
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver projeto">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver código">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="card-badge">⭐ Projeto Destaque</div>
+            <h3 class="card-title">Sistema de Irrigação Automatizado</h3>
+            <p class="card-desc">
+              Projeto interdisciplinar integrando programação, eletrônica e desenvolvimento web.
+              Controle de irrigação via Arduino com aplicativo mobile para monitoramento remoto
+              em tempo real e landing page responsiva para visualização dos dados.
+            </p>
+            <div class="card-tech">
+              <span>Arduino</span>
+              <span>Python</span>
+              <span>MySQL</span>
+              <span>React Native</span>
+              <span>HTML/CSS</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Ver projeto</a>
+              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">Ver código</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="project-card reveal reveal-delay-1">
             <div class="card-top">
               <div class="card-icon">📋</div>
               <div class="card-links">
@@ -164,7 +216,8 @@
             <h3 class="card-title">Gerenciador de Tarefas</h3>
             <p class="card-desc">
               Aplicação desktop para gerenciamento de tarefas com interface gráfica
-              moderna, sistema de categorias, prioridades e persistência em banco de dados.
+              moderna, categorias, prioridades e persistência em banco de dados SQLite.
+              Interface construída com Flet (Python).
             </p>
             <div class="card-tech">
               <span>Python</span>
@@ -177,8 +230,8 @@
             </div>
           </article>
 
-          <!-- Card 2 -->
-          <article class="project-card reveal reveal-delay-1">
+          <!-- Card 3 -->
+          <article class="project-card reveal reveal-delay-2">
             <div class="card-top">
               <div class="card-icon">🌐</div>
               <div class="card-links">
@@ -190,45 +243,17 @@
                 </a>
               </div>
             </div>
-            <h3 class="card-title">Site Institucional</h3>
+            <h3 class="card-title">API REST com Laravel</h3>
             <p class="card-desc">
-              Site institucional responsivo desenvolvido com HTML, CSS e JavaScript puro,
-              com seções de serviços, equipe, depoimentos e formulário de contato funcional.
+              API RESTful desenvolvida com Laravel para gerenciamento de recursos,
+              autenticação com tokens, validação de dados e integração com banco
+              de dados MySQL seguindo boas práticas de arquitetura.
             </p>
             <div class="card-tech">
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>JavaScript</span>
-            </div>
-            <div class="card-actions">
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">Ver código</a>
-            </div>
-          </article>
-
-          <!-- Card 3 -->
-          <article class="project-card reveal reveal-delay-2">
-            <div class="card-top">
-              <div class="card-icon">⚖️</div>
-              <div class="card-links">
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver projeto">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver código">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
-              </div>
-            </div>
-            <h3 class="card-title">Mapa da Seletividade Penal</h3>
-            <p class="card-desc">
-              Projeto acadêmico que cruza dados públicos do sistema penitenciário com
-              variáveis socioeconômicas para evidenciar padrões de seletividade do
-              sistema penal brasileiro.
-            </p>
-            <div class="card-tech">
-              <span>Python</span>
-              <span>Pandas</span>
-              <span>Dados Públicos</span>
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+              <span>REST API</span>
             </div>
             <div class="card-actions">
               <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Ver projeto</a>
@@ -240,82 +265,156 @@
       </div>
     </section>
 
-    <!-- ======================== ÁREA JURÍDICA ======================== -->
-    <section id="juridico" class="section section-juridico">
+    <!-- ======================== EXPERIÊNCIA & FORMAÇÃO ======================== -->
+    <section id="experiencia" class="section section-experiencia">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">Produção acadêmica</span>
-          <h2 class="section-title">Área Jurídica</h2>
+          <span class="section-tag">Trajetória</span>
+          <h2 class="section-title">Experiência &amp; Formação</h2>
           <div class="section-line"></div>
-          <p class="section-desc">
-            Textos, análises e reflexões produzidos ao longo da graduação em Direito.
-          </p>
         </div>
 
-        <div class="juridico-grid">
+        <div class="timeline-grid">
 
-          <!-- Artigo 1 -->
-          <article class="juridico-card reveal">
-            <div class="juridico-meta">
-              <span class="juridico-tag tag-penal">Direito Penal</span>
-              <time class="juridico-date">2025</time>
-            </div>
-            <h3 class="juridico-title">Seletividade Penal no Brasil</h3>
-            <p class="juridico-excerpt">
-              A seletividade penal revela que o sistema punitivo brasileiro não opera
-              de forma neutra: recai de maneira desproporcional sobre populações negras,
-              pobres e periféricas. Este trabalho analisa como o direito penal funciona
-              como instrumento de controle social seletivo, à luz da criminologia crítica
-              e dos dados do DEPEN, questionando a suposta universalidade da aplicação
-              da lei penal.
-            </p>
-            <div class="juridico-footer">
-              <span class="juridico-type">📄 Artigo Acadêmico</span>
-              <a href="#" class="juridico-link">Ler mais →</a>
-            </div>
-          </article>
+          <!-- Coluna Experiência -->
+          <div class="timeline-col reveal">
+            <h3 class="timeline-col-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+              Experiência
+            </h3>
 
-          <!-- Artigo 2 -->
-          <article class="juridico-card reveal reveal-delay-1">
-            <div class="juridico-meta">
-              <span class="juridico-tag tag-digital">Direito Digital</span>
-              <time class="juridico-date">2025</time>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-body">
+                <div class="timeline-header">
+                  <span class="timeline-title">Estagiário em Desenvolvimento de Sistemas</span>
+                  <span class="timeline-period">2025 – Presente</span>
+                </div>
+                <span class="timeline-place">DF Informática · Brasília/DF</span>
+                <ul class="timeline-list">
+                  <li>Desenvolvimento de sistemas web com PHP, Laravel, HTML, CSS e JavaScript</li>
+                  <li>Manutenção, correção de bugs e melhorias em sistemas existentes</li>
+                  <li>Consultas e manipulação de banco de dados MySQL</li>
+                  <li>Controle de versão com Git e boas práticas de programação</li>
+                  <li>Participação em reuniões de planejamento e acompanhamento de projetos</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Git</span>
+                </div>
+              </div>
             </div>
-            <h3 class="juridico-title">LegalTech e Acesso à Justiça</h3>
-            <p class="juridico-excerpt">
-              As tecnologias jurídicas (LegalTech) têm o potencial de democratizar
-              o acesso à justiça ao automatizar serviços antes restritos a quem
-              pode pagar por eles. Analisamos casos como chatbots de orientação
-              jurídica, plataformas de mediação online e o uso de inteligência
-              artificial na triagem de processos, discutindo limites éticos e
-              oportunidades para o sistema judiciário brasileiro.
-            </p>
-            <div class="juridico-footer">
-              <span class="juridico-type">📝 Análise Temática</span>
-              <a href="#" class="juridico-link">Ler mais →</a>
-            </div>
-          </article>
 
-          <!-- Artigo 3 — TCC placeholder -->
-          <article class="juridico-card juridico-card-featured reveal reveal-delay-2">
-            <div class="juridico-meta">
-              <span class="juridico-tag tag-tcc">TCC</span>
-              <time class="juridico-date">Em andamento</time>
+            <div class="timeline-item">
+              <div class="timeline-dot timeline-dot-dim"></div>
+              <div class="timeline-body">
+                <div class="timeline-header">
+                  <span class="timeline-title">Projetos Acadêmicos &amp; Pessoais</span>
+                  <span class="timeline-period">Contínuo</span>
+                </div>
+                <span class="timeline-place">Desenvolvimento independente</span>
+                <ul class="timeline-list">
+                  <li>Aplicações web e desktop com Python, PHP, Laravel, React e MySQL</li>
+                  <li>Criação de sistemas de gerenciamento e APIs REST</li>
+                  <li>Repositórios disponíveis no GitHub</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span>Python</span><span>React</span><span>REST API</span>
+                </div>
+              </div>
             </div>
-            <h3 class="juridico-title">Trabalho de Conclusão de Curso</h3>
-            <p class="juridico-excerpt">
-              Pesquisa em desenvolvimento sobre a interseção entre tecnologia,
-              direitos fundamentais e acesso à justiça no Brasil contemporâneo.
-              O trabalho propõe uma análise crítica sobre como ferramentas digitais
-              podem — ou não — reduzir as desigualdades estruturais no sistema jurídico.
-            </p>
-            <div class="juridico-footer">
-              <span class="juridico-type">🎓 TCC em andamento</span>
-              <a href="#contato" class="juridico-link">Saiba mais →</a>
-            </div>
-          </article>
+          </div>
 
+          <!-- Coluna Formação -->
+          <div class="timeline-col reveal reveal-delay-1">
+            <h3 class="timeline-col-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              Formação
+            </h3>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-body">
+                <div class="timeline-header">
+                  <span class="timeline-title">Engenharia de Software</span>
+                  <span class="timeline-period">2025 – Presente</span>
+                </div>
+                <span class="timeline-place">Universidade do Distrito Federal (UDF) · Brasília/DF</span>
+                <p class="timeline-desc">
+                  Bacharelado em andamento com foco em engenharia de sistemas,
+                  desenvolvimento de software, arquitetura e boas práticas de programação.
+                </p>
+                <div class="timeline-tags">
+                  <span>Em andamento</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot timeline-dot-done"></div>
+              <div class="timeline-body">
+                <div class="timeline-header">
+                  <span class="timeline-title">Técnico em Desenvolvimento de Sistemas</span>
+                  <span class="timeline-period">2024 – 2025</span>
+                </div>
+                <span class="timeline-place">SENAI Taguatinga · Taguatinga/DF</span>
+                <p class="timeline-desc">
+                  Formação técnica com foco em lógica de programação, banco de dados,
+                  desenvolvimento web e boas práticas de código.
+                </p>
+                <div class="timeline-tags">
+                  <span>Concluído</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot timeline-dot-done"></div>
+              <div class="timeline-body">
+                <div class="timeline-header">
+                  <span class="timeline-title">Ensino Médio</span>
+                  <span class="timeline-period">2024 – 2025</span>
+                </div>
+                <span class="timeline-place">SESI-SENAI DF · Taguatinga/DF</span>
+                <div class="timeline-tags">
+                  <span>Concluído</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
+
+        <!-- Interesses -->
+        <div class="interesses reveal">
+          <h3 class="interesses-title">Áreas de Interesse</h3>
+          <div class="interesses-grid">
+            <div class="interesse-item">
+              <span class="interesse-icon">🤖</span>
+              <span>Inteligência Artificial</span>
+            </div>
+            <div class="interesse-item">
+              <span class="interesse-icon">🔐</span>
+              <span>Cibersegurança</span>
+            </div>
+            <div class="interesse-item">
+              <span class="interesse-icon">⚙️</span>
+              <span>Automação &amp; IoT</span>
+            </div>
+            <div class="interesse-item">
+              <span class="interesse-icon">🌐</span>
+              <span>Desenvolvimento Web</span>
+            </div>
+            <div class="interesse-item">
+              <span class="interesse-icon">📱</span>
+              <span>Apps Mobile</span>
+            </div>
+            <div class="interesse-item">
+              <span class="interesse-icon">🔗</span>
+              <span>APIs &amp; Integração</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -327,41 +426,50 @@
           <h2 class="section-title">Contato</h2>
           <div class="section-line"></div>
           <p class="section-desc">
-            Aberto a oportunidades, parcerias acadêmicas e conversas sobre
-            Direito, tecnologia e impacto social.
+            Aberto a oportunidades, colaborações e novos projetos.
           </p>
         </div>
 
         <div class="contato-grid">
 
           <div class="contato-info reveal">
-            <a href="mailto:seuemail@email.com" class="contato-item">
+            <a href="mailto:kawehenri@gmail.com" class="contato-item">
               <div class="contato-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               </div>
               <div>
                 <span class="contato-label">E-mail</span>
-                <span class="contato-value">seuemail@email.com</span>
+                <span class="contato-value">kawehenri@gmail.com</span>
               </div>
             </a>
 
-            <a href="https://github.com/seuusuario" target="_blank" rel="noopener" class="contato-item">
+            <a href="https://github.com/kawehenri" target="_blank" rel="noopener" class="contato-item">
               <div class="contato-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
               </div>
               <div>
                 <span class="contato-label">GitHub</span>
-                <span class="contato-value">github.com/seuusuario</span>
+                <span class="contato-value">github.com/kawehenri</span>
               </div>
             </a>
 
-            <a href="https://linkedin.com/in/seuperfil" target="_blank" rel="noopener" class="contato-item">
+            <a href="https://linkedin.com/in/kawehenri" target="_blank" rel="noopener" class="contato-item">
               <div class="contato-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
               </div>
               <div>
                 <span class="contato-label">LinkedIn</span>
-                <span class="contato-value">linkedin.com/in/seuperfil</span>
+                <span class="contato-value">linkedin.com/in/kawehenri</span>
+              </div>
+            </a>
+
+            <a href="tel:+5561986279308" class="contato-item">
+              <div class="contato-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.26h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="contato-label">Telefone</span>
+                <span class="contato-value">(61) 9 8627-9308</span>
               </div>
             </a>
           </div>
@@ -392,12 +500,11 @@
   <!-- ======================== RODAPÉ ======================== -->
   <footer class="footer">
     <div class="container footer-inner">
-      <p class="footer-copy">© 2025 Kawe — Direito &amp; Tecnologia</p>
-      <p class="footer-made">Feito com HTML, CSS &amp; JS puro</p>
+      <p class="footer-copy">© 2025 Kawê Henrique</p>
+      <p class="footer-made">Engenharia de Software | Feito com HTML, CSS &amp; JS</p>
     </div>
   </footer>
 
-  <!-- Botão voltar ao topo -->
   <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
 
   <script src="script.js"></script>
