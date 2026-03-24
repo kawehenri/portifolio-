@@ -97,11 +97,11 @@ document.addEventListener('click', e => {
 const typedEl = document.getElementById('typed-text');
 
 const phrases = [
-  'Engenheiro de Software',
-  'Desenvolvedor Full Stack',
-  'Apaixonado por tecnologia',
-  'Python · PHP · Laravel · React',
-  'Construindo soluções reais',
+  'Desenvolvedor full stack em formação',
+  'Engenharia de Software · UDF',
+  'APIs, interfaces e dados',
+  'PHP · Laravel · Python · React',
+  'Da especificação ao deploy',
 ];
 
 let phraseIndex  = 0;

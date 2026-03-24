@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfólio de Kawê Henrique — Engenharia de Software, desenvolvimento web e sistemas." />
-  <title>Kawê Henrique | Engenharia de Software</title>
+  <meta name="description" content="Kawê Henrique — desenvolvedor full stack em formação (UDF/SENAI). PHP, Laravel, Python, React. Estágio em sistemas web; projetos de irrigação inteligente, SPAs, portais educativos (EcoHistory) e APIs REST." />
+  <title>Kawê Henrique · Desenvolvedor full stack em formação | Portfólio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -37,18 +37,19 @@
     <!-- ======================== HOME ======================== -->
     <section id="home" class="section section-home">
       <div class="home-content reveal">
-        <p class="home-greeting">Olá, eu sou</p>
+        <p class="home-greeting">Desenvolvimento de software · Brasília</p>
         <h1 class="home-name">Kawê Henrique<span class="accent">.</span></h1>
         <h2 class="home-tagline">
           <span id="typed-text"></span><span class="cursor-blink">|</span>
         </h2>
         <p class="home-sub">
-          Estudante de Engenharia de Software, estagiário em desenvolvimento de sistemas
-          e apaixonado por construir soluções que fazem diferença — do back-end ao front-end.
+          Graduando em <strong>Engenharia de Software</strong> (UDF) e estagiário em desenvolvimento de sistemas.
+          Atuo na interface entre <strong>APIs robustas</strong>, <strong>interfaces web</strong> e <strong>dados</strong> —
+          com foco em código legível, entregas contínuas e impacto mensurável.
         </p>
         <div class="home-actions">
-          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
-          <a href="#contato"  class="btn btn-outline">Entrar em contato</a>
+          <a href="#projetos" class="btn btn-primary">Ver portfólio</a>
+          <a href="#contato"  class="btn btn-outline">Falar comigo</a>
         </div>
       </div>
 
@@ -72,31 +73,30 @@
     <section id="sobre" class="section section-sobre">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">Quem sou eu</span>
-          <h2 class="section-title">Sobre Mim</h2>
+          <span class="section-tag">Perfil profissional</span>
+          <h2 class="section-title">Sobre mim</h2>
           <div class="section-line"></div>
         </div>
 
         <div class="sobre-grid">
           <div class="sobre-text reveal">
             <p>
-              Sou <strong>Kawê Henrique</strong>, estudante de
-              <strong>Engenharia de Software</strong> pela Universidade do Distrito
-              Federal (UDF), com formação técnica em Desenvolvimento de Sistemas pelo
-              <strong>SENAI-DF</strong>. Atuo como estagiário na
-              <strong>DF Informática</strong>, onde desenvolvo e mantenho sistemas web
-              utilizando PHP, Laravel, HTML, CSS e JavaScript.
+              Sou <strong>Kawê Henrique</strong>, desenvolvedor em formação com base sólida em
+              <strong>Engenharia de Software</strong> (UDF) e <strong>Técnico em Desenvolvimento de Sistemas</strong>
+              (SENAI-DF). Na <strong>DF Informática</strong>, atuo como estagiário em desenvolvimento de sistemas:
+              evolução de aplicações web, correções, melhorias e integração com <strong>MySQL</strong>, utilizando
+              <strong>PHP, Laravel, HTML, CSS e JavaScript</strong> no dia a dia.
             </p>
             <p>
-              Tenho experiência prática com <strong>back-end</strong> (Python, PHP,
-              Laravel), <strong>front-end</strong> (HTML, CSS, JavaScript, React) e
-              <strong>banco de dados</strong> (MySQL). Gosto de resolver problemas
-              complexos com código limpo e boas práticas de engenharia de software.
+              Percorro o ciclo de entrega em camadas: <strong>back-end</strong> (Python, PHP, Laravel),
+              <strong>front-end</strong> (HTML, CSS, JavaScript, React) e <strong>persistência</strong> (MySQL).
+              Priorizo arquitetura clara, versionamento com Git e práticas que facilitam manutenção e escala —
+              sem atalhos que geram dívida técnica desnecessária.
             </p>
             <p>
-              Tenho interesse em <strong>Inteligência Artificial</strong>,
-              <strong>Cibersegurança</strong> e automação. Estou em constante evolução
-              técnica e aprimorando meu inglês para colaborar em projetos globais.
+              Aprofundo-me em <strong>inteligência artificial aplicada</strong>, <strong>cibersegurança</strong>
+              e <strong>automação</strong>. Invisto em inglês técnico e em repositórios públicos que documentam
+              decisões de projeto — preparado para ambientes ágeis e colaboração remota.
             </p>
 
             <!-- Localização e contato rápido -->
@@ -108,7 +108,7 @@
           </div>
 
           <div class="sobre-skills reveal reveal-delay-1">
-            <h3 class="skills-title">Competências Técnicas</h3>
+            <h3 class="skills-title">Perfil técnico</h3>
             <ul class="skills-list">
               <li class="skill-item">
                 <span class="skill-label">Python</span>
@@ -157,35 +157,38 @@
     <section id="projetos" class="section section-projetos">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">O que construí</span>
-          <h2 class="section-title">Projetos</h2>
+          <span class="section-tag">Portfólio técnico</span>
+          <h2 class="section-title">Projetos selecionados</h2>
           <div class="section-line"></div>
           <p class="section-desc">
-            Projetos acadêmicos e pessoais — do protótipo ao deploy.
+            Amostra de trabalhos acadêmicos, produtos em produção e experimentos de interface —
+            da pesquisa aplicada ao deploy e documentação em repositório.
           </p>
         </div>
 
         <div class="projects-grid">
 
-          <!-- Card 1 — Projeto destaque -->
+          <!-- Card 1 — AquaFloww / irrigação -->
           <article class="project-card project-card-featured reveal">
             <div class="card-top">
-              <div class="card-icon">🌱</div>
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/aqua.png" alt="Preview do projeto AquaFloww" width="52" height="52" loading="eager" decoding="async" />
+              </div>
               <div class="card-links">
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver projeto">
+                <a href="http://aquafloww.site/" target="_blank" rel="noopener noreferrer" class="icon-link" title="Site ao vivo — AquaFloww">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                 </a>
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver código">
+                <a href="https://github.com/kawehenri/kawehenri.github.io.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código da landing e história do projeto">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                 </a>
               </div>
             </div>
-            <div class="card-badge">⭐ Projeto Destaque</div>
-            <h3 class="card-title">Sistema de Irrigação Automatizado</h3>
+            <div class="card-badge">⭐ Destaque — AquaFloww</div>
+            <h3 class="card-title">AquaFloww · irrigação inteligente</h3>
             <p class="card-desc">
-              Projeto interdisciplinar integrando programação, eletrônica e desenvolvimento web.
-              Controle de irrigação via Arduino com aplicativo mobile para monitoramento remoto
-              em tempo real e landing page responsiva para visualização dos dados.
+              Plataforma de <strong>iniciação científica</strong> que une hardware (Arduino), software e presença web:
+              automação da irrigação, monitoramento e landing institucional com narrativa técnica, benefícios,
+              FAQ e roadmap. Objetivo central: <strong>reduzir desperdício de água e energia</strong> sem sacrificar produtividade agrícola.
             </p>
             <div class="card-tech">
               <span>Arduino</span>
@@ -195,69 +198,250 @@
               <span>HTML/CSS</span>
             </div>
             <div class="card-actions">
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">Ver código</a>
+              <a href="http://aquafloww.site/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
+              <a href="https://github.com/kawehenri/kawehenri.github.io.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 2 -->
-          <article class="project-card reveal reveal-delay-1">
+          <!-- Card 2 — Gerenciador (somente repositório) -->
+          <article class="project-card project-card--code-only reveal reveal-delay-1">
             <div class="card-top">
-              <div class="card-icon">📋</div>
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/flet.png" alt="Preview do gerenciador de tarefas (Flet)" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
               <div class="card-links">
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver projeto">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver código">
+                <a href="https://github.com/kawehenri/gerenciador_de_tarefas.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código no GitHub">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                 </a>
               </div>
             </div>
-            <h3 class="card-title">Gerenciador de Tarefas</h3>
+            <h3 class="card-title">Gerenciador de tarefas (desktop)</h3>
             <p class="card-desc">
-              Aplicação desktop para gerenciamento de tarefas com interface gráfica
-              moderna, categorias, prioridades e persistência em banco de dados SQLite.
-              Interface construída com Flet (Python).
+              Aplicação <strong>Python + Flet</strong> com modelo de dados em <strong>SQLite</strong>: categorias,
+              prioridades e persistência local. Interface objetiva para produtividade pessoal; distribuição via
+              ambiente de desenvolvimento — código versionado e pronto para evolução (empacotamento ou nuvem).
             </p>
             <div class="card-tech">
               <span>Python</span>
               <span>Flet</span>
               <span>SQLite</span>
             </div>
-            <div class="card-actions">
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">Ver código</a>
+            <div class="card-actions card-actions--single">
+              <a href="https://github.com/kawehenri/gerenciador_de_tarefas.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 3 -->
-          <article class="project-card reveal reveal-delay-2">
+          <!-- Card 3 — Barbearia (API + sistema) -->
+          <article class="project-card project-card--code-only reveal reveal-delay-2">
             <div class="card-top">
-              <div class="card-icon">🌐</div>
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/barbearia.png" alt="Preview do sistema de gestão de barbearia" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
               <div class="card-links">
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver projeto">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener" class="icon-link" title="Ver código">
+                <a href="https://github.com/kawehenri/projeto_barbearia.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Repositório — BarboX / barbearia">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                 </a>
               </div>
             </div>
-            <h3 class="card-title">API REST com Laravel</h3>
+            <h3 class="card-title">Gestão de barbearia · full stack</h3>
             <p class="card-desc">
-              API RESTful desenvolvida com Laravel para gerenciamento de recursos,
-              autenticação com tokens, validação de dados e integração com banco
-              de dados MySQL seguindo boas práticas de arquitetura.
+              Ecossistema <strong>Laravel + React</strong> para operação de barbearia: <strong>API REST</strong> com
+              <strong>Laravel Sanctum</strong>, regras de negócio e MySQL; painel administrativo, portal do cliente,
+              agendamentos e cadastro de serviços. Arquitetura preparada para crescer — pagamentos, notificações e multiunidade.
             </p>
             <div class="card-tech">
               <span>PHP</span>
               <span>Laravel</span>
+              <span>React</span>
               <span>MySQL</span>
               <span>REST API</span>
             </div>
+            <div class="card-actions card-actions--single">
+              <a href="https://github.com/kawehenri/projeto_barbearia.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
+            </div>
+          </article>
+
+          <!-- Card 4 — Site Neymar Jr -->
+          <article class="project-card reveal reveal-delay-3">
+            <div class="card-top">
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/logo_Neymar.png" alt="Preview do site NJR Legacy" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
+              <div class="card-links">
+                <a href="https://njrlegacy.gt.tc" target="_blank" rel="noopener noreferrer" class="icon-link" title="Site ao vivo — NJR Legacy">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/kawehenri/site_neymar.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código-fonte">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">NJR Legacy · presença editorial</h3>
+            <p class="card-desc">
+              Site estático de alto volume informativo: arquitetura multipágina, conteúdo longform, performance e
+              <strong>PWA</strong> (manifest + service worker). Formulário de contato com backend Node opcional;
+              layout responsivo pensado para leitura e compartilhamento — exercício de marca, SEO básico e acessibilidade.
+            </p>
+            <div class="card-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PWA</span>
+              <span>Node</span>
+            </div>
             <div class="card-actions">
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">Ver código</a>
+              <a href="https://njrlegacy.gt.tc" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
+              <a href="https://github.com/kawehenri/site_neymar.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
+            </div>
+          </article>
+
+          <!-- Card 5 — My Routine -->
+          <article class="project-card reveal reveal-delay-4">
+            <div class="card-top">
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/rotina.png" alt="Preview do app My Routine" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
+              <div class="card-links">
+                <a href="http://aquafloww.site/myroutine-/" target="_blank" rel="noopener noreferrer" class="icon-link" title="App ao vivo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/kawehenri/myroutine-.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código no GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">My Routine · produtividade no browser</h3>
+            <p class="card-desc">
+              <strong>SPA React + Vite</strong> com módulos de cronograma, estudos, timer estilo Pomodoro, hábitos, sono,
+              treino, metas e painéis estatísticos. Estado persistido no <span class="card-kbd">localStorage</span>
+              (privacidade por design), temas claro/escuro e <strong>PWA</strong> — stack enxuta, sem dependência de servidor.
+            </p>
+            <div class="card-tech">
+              <span>React</span>
+              <span>Vite</span>
+              <span>PWA</span>
+              <span>HashRouter</span>
+            </div>
+            <div class="card-actions">
+              <a href="http://aquafloww.site/myroutine-/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
+              <a href="https://github.com/kawehenri/myroutine-.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
+            </div>
+          </article>
+
+          <!-- Card 6 — EcoHistory -->
+          <article class="project-card reveal reveal-delay-5">
+            <div class="card-top">
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/ecohistory.png" alt="Preview do portal EcoHistory" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
+              <div class="card-links">
+                <a href="http://aquafloww.site/EcoHistory/" target="_blank" rel="noopener noreferrer" class="icon-link" title="Site ao vivo — EcoHistory">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/kawehenri/EcoHistory.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código no GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">EcoHistory · história em formato web</h3>
+            <p class="card-desc">
+              Portal educativo multipágina para explorar <strong>acontecimentos históricos</strong> com contexto, curiosidades e navegação clara.
+              Inclui <strong>quizzes interativos</strong>, destaques por era e um eixo especial sobre <strong>cultura pop</strong> — caso do seriado
+              <strong>Dexter</strong> como objeto de análise — alinhado a páginas institucionais (sobre, contato, acessibilidade).
+            </p>
+            <div class="card-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Educação</span>
+            </div>
+            <div class="card-actions">
+              <a href="http://aquafloww.site/EcoHistory/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
+              <a href="https://github.com/kawehenri/EcoHistory.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
+            </div>
+          </article>
+
+          <!-- Card 7 — Rótulos RR Pimentas -->
+          <article class="project-card project-card--code-only reveal reveal-delay-6">
+            <div class="card-top">
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/rr.png" alt="Preview dos rótulos RR Pimentas" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/kawehenri/rr_pimentas.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">RR Pimentas · identidade em código</h3>
+            <p class="card-desc">
+              Sistema de <strong>rótulos e peças gráficas em HTML</strong> para varejo de temperos e pimentas:
+              consistência visual, escalabilidade para impressão ou exportação PDF e narrativa de marca alinhada ao
+              posicionamento gourmet — design aplicado com rigor tipográfico e reprodutibilidade.
+            </p>
+            <div class="card-tech">
+              <span>HTML</span>
+              <span>Design</span>
+              <span>Marca</span>
+            </div>
+            <div class="card-actions card-actions--single">
+              <a href="https://github.com/kawehenri/rr_pimentas.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
+            </div>
+          </article>
+
+          <!-- Card 8 — Currículos em código -->
+          <article class="project-card project-card--code-only reveal reveal-delay-7">
+            <div class="card-top">
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/curriculo.png" alt="Preview dos currículos em código" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/kawehenri/curriculo.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">Currículos parametrizados em código</h3>
+            <p class="card-desc">
+              Modelos de CV em <strong>HTML, CSS e JavaScript</strong> (incluindo o meu), com variantes <strong>PT/EN</strong>
+              e pipeline para <strong>PDF</strong>. Tipografia, grid e hierarquia sob controle total — alternativa profissional
+              a editores genéricos, com foco em clareza e impressão consistente.
+            </p>
+            <div class="card-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="card-actions card-actions--single">
+              <a href="https://github.com/kawehenri/curriculo.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
+            </div>
+          </article>
+
+          <!-- Card 9 — Edo Bistro (conceito) -->
+          <article class="project-card project-card--code-only reveal reveal-delay-8">
+            <div class="card-top">
+              <div class="card-icon card-icon--thumb">
+                <img src="IMGS/edo.png" alt="Preview do conceito Edo Bistro" width="52" height="52" loading="lazy" decoding="async" />
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/kawehenri/Edo_Bistr-.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código / conceito">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">Edo Bistro · conceito de produto</h3>
+            <p class="card-desc">
+              Exploração de <strong>marketplace de reviews verticais</strong> para culinária japonesa — do sashimi ao
+              <strong>omakase</strong>. Hipóteses de UX, taxonomia de pratos e critérios culturais; repositório concentra
+              wireframes, protótipos e testes de interface para validar proposta antes de escalar.
+            </p>
+            <div class="card-tech">
+              <span>Conceito</span>
+              <span>Web</span>
+              <span>UX</span>
+            </div>
+            <div class="card-actions card-actions--single">
+              <a href="https://github.com/kawehenri/Edo_Bistr-.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
@@ -269,9 +453,12 @@
     <section id="experiencia" class="section section-experiencia">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">Trajetória</span>
-          <h2 class="section-title">Experiência &amp; Formação</h2>
+          <span class="section-tag">Currículo sintético</span>
+          <h2 class="section-title">Experiência &amp; formação</h2>
           <div class="section-line"></div>
+          <p class="section-desc">
+            Trajetória acadêmica e atuação profissional em desenvolvimento de software — alinhada a entregas reais e stack moderna.
+          </p>
         </div>
 
         <div class="timeline-grid">
@@ -287,16 +474,16 @@
               <div class="timeline-dot"></div>
               <div class="timeline-body">
                 <div class="timeline-header">
-                  <span class="timeline-title">Estagiário em Desenvolvimento de Sistemas</span>
+                  <span class="timeline-title">Estágio · Desenvolvimento de sistemas</span>
                   <span class="timeline-period">2025 – Presente</span>
                 </div>
                 <span class="timeline-place">DF Informática · Brasília/DF</span>
                 <ul class="timeline-list">
-                  <li>Desenvolvimento de sistemas web com PHP, Laravel, HTML, CSS e JavaScript</li>
-                  <li>Manutenção, correção de bugs e melhorias em sistemas existentes</li>
-                  <li>Consultas e manipulação de banco de dados MySQL</li>
-                  <li>Controle de versão com Git e boas práticas de programação</li>
-                  <li>Participação em reuniões de planejamento e acompanhamento de projetos</li>
+                  <li>Implementação e evolução de sistemas web com PHP, Laravel, HTML, CSS e JavaScript</li>
+                  <li>Manutenção corretiva e evolutiva: bugs, refinos de UX e desempenho</li>
+                  <li>Modelagem de consultas e operações em banco de dados MySQL</li>
+                  <li>Fluxo de trabalho com Git, revisão de código e padrões de projeto</li>
+                  <li>Participação em planejamento, priorização e acompanhamento de entregas</li>
                 </ul>
                 <div class="timeline-tags">
                   <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Git</span>
@@ -308,14 +495,14 @@
               <div class="timeline-dot timeline-dot-dim"></div>
               <div class="timeline-body">
                 <div class="timeline-header">
-                  <span class="timeline-title">Projetos Acadêmicos &amp; Pessoais</span>
+                  <span class="timeline-title">Projetos acadêmicos e autorais</span>
                   <span class="timeline-period">Contínuo</span>
                 </div>
-                <span class="timeline-place">Desenvolvimento independente</span>
+                <span class="timeline-place">Desenvolvimento independente · GitHub público</span>
                 <ul class="timeline-list">
-                  <li>Aplicações web e desktop com Python, PHP, Laravel, React e MySQL</li>
-                  <li>Criação de sistemas de gerenciamento e APIs REST</li>
-                  <li>Repositórios disponíveis no GitHub</li>
+                  <li>Produtos web e desktop com Python, PHP, Laravel, React e MySQL</li>
+                  <li>APIs REST, SPAs e integração front-end ↔ back-end</li>
+                  <li>Documentação, landing pages e experimentos de IoT / automação</li>
                 </ul>
                 <div class="timeline-tags">
                   <span>Python</span><span>React</span><span>REST API</span>
@@ -340,8 +527,8 @@
                 </div>
                 <span class="timeline-place">Universidade do Distrito Federal (UDF) · Brasília/DF</span>
                 <p class="timeline-desc">
-                  Bacharelado em andamento com foco em engenharia de sistemas,
-                  desenvolvimento de software, arquitetura e boas práticas de programação.
+                  Bacharelado em curso, com ênfase em engenharia de sistemas, ciclo de vida de software,
+                  arquitetura e qualidade de código — alinhado à prática de mercado e a fundamentos sólidos de computação.
                 </p>
                 <div class="timeline-tags">
                   <span>Em andamento</span>
@@ -358,8 +545,8 @@
                 </div>
                 <span class="timeline-place">SENAI Taguatinga · Taguatinga/DF</span>
                 <p class="timeline-desc">
-                  Formação técnica com foco em lógica de programação, banco de dados,
-                  desenvolvimento web e boas práticas de código.
+                  Base técnica em lógica, estruturas de dados, banco de dados e desenvolvimento web —
+                  com disciplina de boas práticas, versionamento e entregas iterativas.
                 </p>
                 <div class="timeline-tags">
                   <span>Concluído</span>
@@ -386,7 +573,7 @@
 
         <!-- Interesses -->
         <div class="interesses reveal">
-          <h3 class="interesses-title">Áreas de Interesse</h3>
+          <h3 class="interesses-title">Frentes de aprofundamento</h3>
           <div class="interesses-grid">
             <div class="interesse-item">
               <span class="interesse-icon">🤖</span>
@@ -422,11 +609,12 @@
     <section id="contato" class="section section-contato">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">Vamos conversar</span>
+          <span class="section-tag">Canal direto</span>
           <h2 class="section-title">Contato</h2>
           <div class="section-line"></div>
           <p class="section-desc">
-            Aberto a oportunidades, colaborações e novos projetos.
+            Disponível para oportunidades de estágio e desenvolvimento, parcerias técnicas e projetos sob demanda.
+            Resposta objetiva e em tempo hábil.
           </p>
         </div>
 
@@ -453,7 +641,7 @@
               </div>
             </a>
 
-            <a href="https://linkedin.com/in/kawehenri" target="_blank" rel="noopener" class="contato-item">
+            <a href="https://www.linkedin.com/in/kawehenri" target="_blank" rel="noopener noreferrer" class="contato-item">
               <div class="contato-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
               </div>
@@ -477,7 +665,7 @@
           <form class="contato-form reveal reveal-delay-1" id="contactForm" novalidate>
             <div class="form-group">
               <label for="name">Nome</label>
-              <input type="text" id="name" name="name" placeholder="Seu nome completo" required />
+              <input type="text" id="name" name="name" placeholder="Nome completo" required />
             </div>
             <div class="form-group">
               <label for="email">E-mail</label>
@@ -485,7 +673,7 @@
             </div>
             <div class="form-group">
               <label for="message">Mensagem</label>
-              <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+              <textarea id="message" name="message" rows="5" placeholder="Contexto, prazo e o que você precisa — respondo com clareza." required></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-full">Enviar mensagem</button>
             <p class="form-feedback" id="formFeedback"></p>
@@ -500,8 +688,8 @@
   <!-- ======================== RODAPÉ ======================== -->
   <footer class="footer">
     <div class="container footer-inner">
-      <p class="footer-copy">© 2025 Kawê Henrique</p>
-      <p class="footer-made">Engenharia de Software | Feito com HTML, CSS &amp; JS</p>
+      <p class="footer-copy">© 2026 Kawê Henrique · Brasília, DF</p>
+      <p class="footer-made">Engenharia de Software · Portfólio estático (HTML, CSS, JavaScript)</p>
     </div>
   </footer>
 
