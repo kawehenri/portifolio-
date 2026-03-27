@@ -153,295 +153,243 @@
       </div>
     </section>
 
-    <!-- ======================== PROJETOS ======================== -->
-    <section id="projetos" class="section section-projetos">
+    <!-- ======================== PROJETOS (showcase tipo thumbnail) ======================== -->
+    <section id="projetos" class="section section-projetos section-projetos--showcase">
       <div class="container">
-        <div class="section-header reveal">
-          <span class="section-tag">Portfólio técnico</span>
-          <h2 class="section-title">Projetos selecionados</h2>
-          <div class="section-line"></div>
-          <p class="section-desc">
-            Amostra de trabalhos acadêmicos, produtos em produção e experimentos de interface —
-            da pesquisa aplicada ao deploy e documentação em repositório.
+        <header class="section-header section-header--projetos-yt reveal">
+          <h2 class="section-title section-title--projetos-yt">Projetos</h2>
+          <p class="section-desc section-desc--projetos-yt">
+            Thumbnails estilo streaming — clique para ver descrição, stack e links. Passe o rato para atalhos.
           </p>
-        </div>
+        </header>
 
-        <div class="projects-grid">
+        <div class="projects-showcase">
 
-          <!-- Card 1 — AquaFloww / irrigação -->
-          <article class="project-card project-card-featured reveal">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/aqua.png" alt="Preview do projeto AquaFloww" width="52" height="52" loading="eager" decoding="async" />
+          <article class="project-tile reveal js-project-tile" data-project="aqua" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: AquaFloww">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/aqua.png" alt="" width="1280" height="720" loading="eager" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="http://aquafloww.site/" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo — AquaFloww" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <a href="https://github.com/kawehenri/kawehenri.github.io.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="http://aquafloww.site/" target="_blank" rel="noopener noreferrer" class="icon-link" title="Site ao vivo — AquaFloww">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-                <a href="https://github.com/kawehenri/kawehenri.github.io.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código da landing e história do projeto">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">AquaFloww — irrigação inteligente &amp; IoT</h3>
+                  <p class="project-tile__meta">Web App · Iniciação científica · Online</p>
+                </div>
+                <div class="project-tile__kudos" title="Meta de impacto: até −40% desperdício de água e energia">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">40</span>
+                </div>
               </div>
-            </div>
-            <div class="card-badge">⭐ Destaque — AquaFloww</div>
-            <h3 class="card-title">AquaFloww · irrigação inteligente</h3>
-            <p class="card-desc">
-              Plataforma de <strong>iniciação científica</strong> que une hardware (Arduino), software e presença web:
-              automação da irrigação, monitoramento e landing institucional com narrativa técnica, benefícios,
-              FAQ e roadmap. Objetivo central: <strong>reduzir desperdício de água e energia</strong> sem sacrificar produtividade agrícola.
-            </p>
-            <div class="card-tech">
-              <span>Arduino</span>
-              <span>Python</span>
-              <span>MySQL</span>
-              <span>React Native</span>
-              <span>HTML/CSS</span>
-            </div>
-            <div class="card-actions">
-              <a href="http://aquafloww.site/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="https://github.com/kawehenri/kawehenri.github.io.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 2 — Gerenciador (somente repositório) -->
-          <article class="project-card project-card--code-only reveal reveal-delay-1">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/flet.png" alt="Preview do gerenciador de tarefas (Flet)" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-1 js-project-tile" data-project="gerenciador" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Gerenciador de tarefas">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/flet.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://github.com/kawehenri/gerenciador_de_tarefas.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="https://github.com/kawehenri/gerenciador_de_tarefas.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código no GitHub">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Gerenciador de tarefas — desktop Python + Flet</h3>
+                  <p class="project-tile__meta">App desktop · Acadêmico · SQLite local</p>
+                </div>
+                <div class="project-tile__kudos" title="100% offline — dados no dispositivo">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">100</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">Gerenciador de tarefas (desktop)</h3>
-            <p class="card-desc">
-              Aplicação <strong>Python + Flet</strong> com modelo de dados em <strong>SQLite</strong>: categorias,
-              prioridades e persistência local. Interface objetiva para produtividade pessoal; distribuição via
-              ambiente de desenvolvimento — código versionado e pronto para evolução (empacotamento ou nuvem).
-            </p>
-            <div class="card-tech">
-              <span>Python</span>
-              <span>Flet</span>
-              <span>SQLite</span>
-            </div>
-            <div class="card-actions card-actions--single">
-              <a href="https://github.com/kawehenri/gerenciador_de_tarefas.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 3 — Barbearia (API + sistema) -->
-          <article class="project-card project-card--code-only reveal reveal-delay-2">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/barbearia.png" alt="Preview do sistema de gestão de barbearia" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-2 js-project-tile" data-project="barbearia" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Gestão de barbearia">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/barbearia.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://github.com/kawehenri/projeto_barbearia.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="https://github.com/kawehenri/projeto_barbearia.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Repositório — BarboX / barbearia">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">BarboX — gestão de barbearia full stack</h3>
+                  <p class="project-tile__meta">Web App · Laravel + React · Acadêmico</p>
+                </div>
+                <div class="project-tile__kudos" title="−35% tempo de agendamento (fluxo digital vs. manual)">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">35</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">Gestão de barbearia · full stack</h3>
-            <p class="card-desc">
-              Ecossistema <strong>Laravel + React</strong> para operação de barbearia: <strong>API REST</strong> com
-              <strong>Laravel Sanctum</strong>, regras de negócio e MySQL; painel administrativo, portal do cliente,
-              agendamentos e cadastro de serviços. Arquitetura preparada para crescer — pagamentos, notificações e multiunidade.
-            </p>
-            <div class="card-tech">
-              <span>PHP</span>
-              <span>Laravel</span>
-              <span>React</span>
-              <span>MySQL</span>
-              <span>REST API</span>
-            </div>
-            <div class="card-actions card-actions--single">
-              <a href="https://github.com/kawehenri/projeto_barbearia.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 4 — Site Neymar Jr -->
-          <article class="project-card reveal reveal-delay-3">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/logo_Neymar.png" alt="Preview do site NJR Legacy" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-3 js-project-tile" data-project="neymar" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: NJR Legacy">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/logo_Neymar.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://njrlegacy.gt.tc" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <a href="https://github.com/kawehenri/site_neymar.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="https://njrlegacy.gt.tc" target="_blank" rel="noopener noreferrer" class="icon-link" title="Site ao vivo — NJR Legacy">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-                <a href="https://github.com/kawehenri/site_neymar.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código-fonte">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">NJR Legacy — site editorial &amp; PWA</h3>
+                  <p class="project-tile__meta">Web · Longform · Kawê Henrique</p>
+                </div>
+                <div class="project-tile__kudos" title="Alto volume de conteúdo · leitura mobile-first">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">592</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">NJR Legacy · presença editorial</h3>
-            <p class="card-desc">
-              Site estático de alto volume informativo: arquitetura multipágina, conteúdo longform, performance e
-              <strong>PWA</strong> (manifest + service worker). Formulário de contato com backend Node opcional;
-              layout responsivo pensado para leitura e compartilhamento — exercício de marca, SEO básico e acessibilidade.
-            </p>
-            <div class="card-tech">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-              <span>PWA</span>
-              <span>Node</span>
-            </div>
-            <div class="card-actions">
-              <a href="https://njrlegacy.gt.tc" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="https://github.com/kawehenri/site_neymar.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 5 — My Routine -->
-          <article class="project-card reveal reveal-delay-4">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/rotina.png" alt="Preview do app My Routine" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-4 js-project-tile" data-project="myroutine" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: My Routine">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/rotina.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="http://aquafloww.site/myroutine-/" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="App ao vivo" aria-label="App ao vivo" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <a href="https://github.com/kawehenri/myroutine-.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="http://aquafloww.site/myroutine-/" target="_blank" rel="noopener noreferrer" class="icon-link" title="App ao vivo">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-                <a href="https://github.com/kawehenri/myroutine-.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código no GitHub">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">My Routine — produtividade no browser (React)</h3>
+                  <p class="project-tile__meta">SPA · PWA · Projeto autoral</p>
+                </div>
+                <div class="project-tile__kudos" title="Privacidade: dados só no localStorage">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">256</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">My Routine · produtividade no browser</h3>
-            <p class="card-desc">
-              <strong>SPA React + Vite</strong> com módulos de cronograma, estudos, timer estilo Pomodoro, hábitos, sono,
-              treino, metas e painéis estatísticos. Estado persistido no <span class="card-kbd">localStorage</span>
-              (privacidade por design), temas claro/escuro e <strong>PWA</strong> — stack enxuta, sem dependência de servidor.
-            </p>
-            <div class="card-tech">
-              <span>React</span>
-              <span>Vite</span>
-              <span>PWA</span>
-              <span>HashRouter</span>
-            </div>
-            <div class="card-actions">
-              <a href="http://aquafloww.site/myroutine-/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="https://github.com/kawehenri/myroutine-.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 6 — EcoHistory -->
-          <article class="project-card reveal reveal-delay-5">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/ecohistory.png" alt="Preview do portal EcoHistory" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-5 js-project-tile" data-project="ecohistory" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: EcoHistory">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/ecohistory.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="http://aquafloww.site/EcoHistory/" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <a href="https://github.com/kawehenri/EcoHistory.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="http://aquafloww.site/EcoHistory/" target="_blank" rel="noopener noreferrer" class="icon-link" title="Site ao vivo — EcoHistory">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-                <a href="https://github.com/kawehenri/EcoHistory.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Código no GitHub">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">EcoHistory — história, quizzes &amp; cultura pop</h3>
+                  <p class="project-tile__meta">Portal educativo · Acadêmico · Live</p>
+                </div>
+                <div class="project-tile__kudos" title="Quizzes e multipágina para explorar temas">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">128</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">EcoHistory · história em formato web</h3>
-            <p class="card-desc">
-              Portal educativo multipágina para explorar <strong>acontecimentos históricos</strong> com contexto, curiosidades e navegação clara.
-              Inclui <strong>quizzes interativos</strong>, destaques por era e um eixo especial sobre <strong>cultura pop</strong> — caso do seriado
-              <strong>Dexter</strong> como objeto de análise — alinhado a páginas institucionais (sobre, contato, acessibilidade).
-            </p>
-            <div class="card-tech">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-              <span>Educação</span>
-            </div>
-            <div class="card-actions">
-              <a href="http://aquafloww.site/EcoHistory/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Ver projeto</a>
-              <a href="https://github.com/kawehenri/EcoHistory.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 7 — Rótulos RR Pimentas -->
-          <article class="project-card project-card--code-only reveal reveal-delay-6">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/rr.png" alt="Preview dos rótulos RR Pimentas" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-6 js-project-tile" data-project="rr" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: RR Pimentas">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/rr.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://github.com/kawehenri/rr_pimentas.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="https://github.com/kawehenri/rr_pimentas.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">RR Pimentas — rótulos &amp; marca em HTML</h3>
+                  <p class="project-tile__meta">Design em código · Cliente / varejo</p>
+                </div>
+                <div class="project-tile__kudos" title="Escalável para impressão e PDF">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">88</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">RR Pimentas · identidade em código</h3>
-            <p class="card-desc">
-              Sistema de <strong>rótulos e peças gráficas em HTML</strong> para varejo de temperos e pimentas:
-              consistência visual, escalabilidade para impressão ou exportação PDF e narrativa de marca alinhada ao
-              posicionamento gourmet — design aplicado com rigor tipográfico e reprodutibilidade.
-            </p>
-            <div class="card-tech">
-              <span>HTML</span>
-              <span>Design</span>
-              <span>Marca</span>
-            </div>
-            <div class="card-actions card-actions--single">
-              <a href="https://github.com/kawehenri/rr_pimentas.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 8 — Currículos em código -->
-          <article class="project-card project-card--code-only reveal reveal-delay-7">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/curriculo.png" alt="Preview dos currículos em código" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-7 js-project-tile" data-project="curriculo" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Currículos em código">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/curriculo.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://github.com/kawehenri/curriculo.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="https://github.com/kawehenri/curriculo.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Currículos em código — PT/EN &amp; PDF</h3>
+                  <p class="project-tile__meta">Ferramenta · Tipografia · Autoral</p>
+                </div>
+                <div class="project-tile__kudos" title="Impressão consistente e controle total do layout">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">64</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">Currículos parametrizados em código</h3>
-            <p class="card-desc">
-              Modelos de CV em <strong>HTML, CSS e JavaScript</strong> (incluindo o meu), com variantes <strong>PT/EN</strong>
-              e pipeline para <strong>PDF</strong>. Tipografia, grid e hierarquia sob controle total — alternativa profissional
-              a editores genéricos, com foco em clareza e impressão consistente.
-            </p>
-            <div class="card-tech">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-            <div class="card-actions card-actions--single">
-              <a href="https://github.com/kawehenri/curriculo.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
-          <!-- Card 9 — Edo Bistro (conceito) -->
-          <article class="project-card project-card--code-only reveal reveal-delay-8">
-            <div class="card-top">
-              <div class="card-icon card-icon--thumb">
-                <img src="IMGS/edo.png" alt="Preview do conceito Edo Bistro" width="52" height="52" loading="lazy" decoding="async" />
+          <article class="project-tile reveal reveal-delay-8 js-project-tile" data-project="edo" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Edo Bistro">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/edo.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://github.com/kawehenri/Edo_Bistr-.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
               </div>
-              <div class="card-links">
-                <a href="https://github.com/kawehenri/Edo_Bistr-.git" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código / conceito">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </a>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Edo Bistro — conceito UX &amp; marketplace vertical</h3>
+                  <p class="project-tile__meta">Produto · Culinária japonesa · Exploração</p>
+                </div>
+                <div class="project-tile__kudos" title="Wireframes e testes antes de escalar">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">37</span>
+                </div>
               </div>
-            </div>
-            <h3 class="card-title">Edo Bistro · conceito de produto</h3>
-            <p class="card-desc">
-              Exploração de <strong>marketplace de reviews verticais</strong> para culinária japonesa — do sashimi ao
-              <strong>omakase</strong>. Hipóteses de UX, taxonomia de pratos e critérios culturais; repositório concentra
-              wireframes, protótipos e testes de interface para validar proposta antes de escalar.
-            </p>
-            <div class="card-tech">
-              <span>Conceito</span>
-              <span>Web</span>
-              <span>UX</span>
-            </div>
-            <div class="card-actions card-actions--single">
-              <a href="https://github.com/kawehenri/Edo_Bistr-.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Ver código</a>
             </div>
           </article>
 
@@ -682,6 +630,27 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal de detalhes do projeto -->
+    <div id="projectModal" class="project-modal" hidden aria-hidden="true">
+      <div class="project-modal__backdrop" data-close-modal tabindex="-1"></div>
+      <div class="project-modal__panel" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+        <button type="button" class="project-modal__close" id="projectModalClose" aria-label="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <p class="project-modal__category" id="projectModalCategory"></p>
+        <h2 class="project-modal__title" id="projectModalTitle"></h2>
+        <p class="project-modal__subtitle" id="projectModalSubtitle"></p>
+        <p class="project-modal__impact" id="projectModalImpact"></p>
+        <p class="project-modal__context" id="projectModalContext"></p>
+        <div class="project-modal__body" id="projectModalBody"></div>
+        <p class="project-modal__stack" id="projectModalStack"></p>
+        <div class="project-modal__actions">
+          <a href="#" class="btn btn-primary btn-sm" id="projectModalLive" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          <a href="#" class="btn btn-outline btn-sm" id="projectModalCode" target="_blank" rel="noopener noreferrer">Ver código</a>
+        </div>
+      </div>
+    </div>
 
   </main>
 
