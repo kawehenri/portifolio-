@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Kawê Henrique — desenvolvedor full stack em formação (UDF/SENAI). PHP, Laravel, Python, React. Estágio em sistemas web; projetos de irrigação inteligente, SPAs, portais educativos (EcoHistory) e APIs REST." />
-  <title>Kawê Henrique · Desenvolvedor full stack em formação | Portfólio</title>
+  <meta name="description" content="Kawê Henrique — Desenvolvedor Full-Stack | Mobile (Flutter, React Native) | Laravel · React. Estágio na DF Informática, publicação em Play Store e App Store, integrações de pagamento e projetos web." />
+  <title>Kawê Henrique · Desenvolvedor Full-Stack | Portfólio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -43,12 +43,13 @@
           <span id="typed-text"></span><span class="cursor-blink">|</span>
         </h2>
         <p class="home-sub">
-          Graduando em <strong>Engenharia de Software</strong> (UDF) e estagiário em desenvolvimento de sistemas.
-          Atuo na interface entre <strong>APIs robustas</strong>, <strong>interfaces web</strong> e <strong>dados</strong> —
-          com foco em código legível, entregas contínuas e impacto mensurável.
+          Construo software que resolve problemas reais — do sketch no papel ao app na loja.
+          Hoje estudo <strong>Engenharia de Software</strong> e aprendo em produção na <strong>DF Informática</strong>,
+          onde participo de sistemas para clientes e de projetos próprios que você vê abaixo.
         </p>
         <div class="home-actions">
-          <a href="#projetos" class="btn btn-primary">Ver portfólio</a>
+          <button type="button" class="btn btn-primary" id="btnVerCurriculo" aria-haspopup="dialog">Ver currículo</button>
+          <a href="#projetos" class="btn btn-outline">Ver portfólio</a>
           <a href="#contato"  class="btn btn-outline">Falar comigo</a>
         </div>
       </div>
@@ -59,9 +60,9 @@
             <span class="avatar-icon">💻</span>
           </div>
         </div>
-        <div class="floating-badge badge-1">Python</div>
+        <div class="floating-badge badge-1">Flutter</div>
         <div class="floating-badge badge-2">Laravel</div>
-        <div class="floating-badge badge-3">React</div>
+        <div class="floating-badge badge-3">React Native</div>
       </div>
 
       <a href="#sobre" class="scroll-down" aria-label="Rolar para baixo">
@@ -81,29 +82,24 @@
         <div class="sobre-grid">
           <div class="sobre-text reveal">
             <p>
-              Sou <strong>Kawê Henrique</strong>, desenvolvedor em formação com base sólida em
-              <strong>Engenharia de Software</strong> (UDF) e <strong>Técnico em Desenvolvimento de Sistemas</strong>
-              (SENAI-DF). Na <strong>DF Informática</strong>, atuo como estagiário em desenvolvimento de sistemas:
-              evolução de aplicações web, correções, melhorias e integração com <strong>MySQL</strong>, utilizando
-              <strong>PHP, Laravel, HTML, CSS e JavaScript</strong> no dia a dia.
+              Sou <strong>Kawê Henrique</strong>, de Brasília. Entrei na área pelo SENAI com curiosidade por lógica e hoje
+              sigo na UDF aprofundando engenharia de software — sempre com as mãos no código, não só na teoria.
             </p>
             <p>
-              Percorro o ciclo de entrega em camadas: <strong>back-end</strong> (Python, PHP, Laravel),
-              <strong>front-end</strong> (HTML, CSS, JavaScript, React) e <strong>persistência</strong> (MySQL).
-              Priorizo arquitetura clara, versionamento com Git e práticas que facilitam manutenção e escala —
-              sem atalhos que geram dívida técnica desnecessária.
+              No estágio na <strong>DF Informática</strong>, aprendo o ritmo do mercado: conversar com quem usa o sistema,
+              entender a dor do cliente, integrar serviços externos e ver a feature ir para produção. Já passei por
+              e-commerce, clínicas, gestão de leads, apps mobile e mapas — sempre como parte do time da empresa, em
+              projetos de clientes.
             </p>
             <p>
-              Aprofundo-me em <strong>inteligência artificial aplicada</strong>, <strong>cibersegurança</strong>
-              e <strong>automação</strong>. Invisto em inglês técnico e em repositórios públicos que documentam
-              decisões de projeto — preparado para ambientes ágeis e colaboração remota.
+              Fora do expediente, experimento em repositórios públicos: IoT, SPAs, PWAs e ideias que nascem em hackathons
+              e feiras (como o AquaFloww no Mundo SENAI). Gosto de explicar o que construí — para quem é técnico ou não.
             </p>
 
-            <!-- Localização e contato rápido -->
             <div class="sobre-meta">
-              <span class="meta-item">📍 Samambaia Norte – DF</span>
-              <span class="meta-item">🎓 UDF — Eng. de Software</span>
-              <span class="meta-item">💼 Estagiário na DF Informática</span>
+              <span class="meta-item">Samambaia Norte – DF</span>
+              <span class="meta-item">UDF — Eng. de Software</span>
+              <span class="meta-item">DF Informática — estágio</span>
             </div>
           </div>
 
@@ -127,6 +123,10 @@
                 <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
               </li>
               <li class="skill-item">
+                <span class="skill-label">Flutter / React Native</span>
+                <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+              </li>
+              <li class="skill-item">
                 <span class="skill-label">MySQL</span>
                 <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
               </li>
@@ -141,12 +141,17 @@
               <span class="badge-tag">PHP</span>
               <span class="badge-tag">Laravel</span>
               <span class="badge-tag">React</span>
+              <span class="badge-tag">Flutter</span>
+              <span class="badge-tag">React Native</span>
               <span class="badge-tag">MySQL</span>
               <span class="badge-tag">Git</span>
               <span class="badge-tag">REST API</span>
-              <span class="badge-tag">Arduino</span>
+              <span class="badge-tag">Play Store</span>
+              <span class="badge-tag">App Store</span>
+              <span class="badge-tag">Lovable</span>
+              <span class="badge-tag">Mercado Pago</span>
+              <span class="badge-tag">Asaas</span>
               <span class="badge-tag">IoT</span>
-              <span class="badge-tag">Scrum</span>
             </div>
           </div>
         </div>
@@ -159,15 +164,16 @@
         <header class="section-header section-header--projetos-yt reveal">
           <h2 class="section-title section-title--projetos-yt">Projetos</h2>
           <p class="section-desc section-desc--projetos-yt">
-            Thumbnails estilo streaming — clique para ver descrição, stack e links. Passe o rato para atalhos.
+            Trabalhos <strong>autorais</strong> e entregas em produção na <strong>DF Informática</strong> — clique em cada card para ver história, stack e links.
           </p>
         </header>
 
+        <h3 class="projects-group__title reveal">Projetos autorais</h3>
         <div class="projects-showcase">
 
           <article class="project-tile reveal js-project-tile" data-project="aqua" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: AquaFloww">
             <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/aqua.png" alt="" width="1280" height="720" loading="eager" decoding="async" />
+              <img class="project-tile__cover" src="IMGS/aqua_autoral.png" alt="" width="1280" height="720" loading="eager" decoding="async" />
               <div class="project-tile__scrim" aria-hidden="true"></div>
               <div class="project-tile__chrome">
                 <div class="project-tile__quick">
@@ -192,84 +198,9 @@
             </div>
           </article>
 
-          <article class="project-tile reveal reveal-delay-1 js-project-tile" data-project="gerenciador" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Gerenciador de tarefas">
+          <article class="project-tile reveal reveal-delay-1 js-project-tile" data-project="myroutine" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: My Routine">
             <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/flet.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
-              <div class="project-tile__scrim" aria-hidden="true"></div>
-              <div class="project-tile__chrome">
-                <div class="project-tile__quick">
-                  <a href="https://github.com/kawehenri/gerenciador_de_tarefas.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                  </a>
-                </div>
-              </div>
-              <div class="project-tile__body">
-                <div class="project-tile__text">
-                  <h3 class="project-tile__name">Gerenciador de tarefas — desktop Python + Flet</h3>
-                  <p class="project-tile__meta">App desktop · Acadêmico · SQLite local</p>
-                </div>
-                <div class="project-tile__kudos" title="100% offline — dados no dispositivo">
-                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
-                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">100</span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-tile reveal reveal-delay-2 js-project-tile" data-project="barbearia" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Gestão de barbearia">
-            <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/barbearia.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
-              <div class="project-tile__scrim" aria-hidden="true"></div>
-              <div class="project-tile__chrome">
-                <div class="project-tile__quick">
-                  <a href="https://github.com/kawehenri/projeto_barbearia.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                  </a>
-                </div>
-              </div>
-              <div class="project-tile__body">
-                <div class="project-tile__text">
-                  <h3 class="project-tile__name">BarboX — gestão de barbearia full stack</h3>
-                  <p class="project-tile__meta">Web App · Laravel + React · Acadêmico</p>
-                </div>
-                <div class="project-tile__kudos" title="−35% tempo de agendamento (fluxo digital vs. manual)">
-                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
-                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">35</span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-tile reveal reveal-delay-3 js-project-tile" data-project="neymar" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: NJR Legacy">
-            <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/logo_Neymar.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
-              <div class="project-tile__scrim" aria-hidden="true"></div>
-              <div class="project-tile__chrome">
-                <div class="project-tile__quick">
-                  <a href="https://njrlegacy.gt.tc" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo" >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                  </a>
-                  <a href="https://github.com/kawehenri/site_neymar.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                  </a>
-                </div>
-              </div>
-              <div class="project-tile__body">
-                <div class="project-tile__text">
-                  <h3 class="project-tile__name">NJR Legacy — site editorial &amp; PWA</h3>
-                  <p class="project-tile__meta">Web · Longform · Kawê Henrique</p>
-                </div>
-                <div class="project-tile__kudos" title="Alto volume de conteúdo · leitura mobile-first">
-                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
-                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">592</span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-tile reveal reveal-delay-4 js-project-tile" data-project="myroutine" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: My Routine">
-            <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/rotina.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <img class="project-tile__cover" src="IMGS/rotina_autoral.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
               <div class="project-tile__scrim" aria-hidden="true"></div>
               <div class="project-tile__chrome">
                 <div class="project-tile__quick">
@@ -294,9 +225,9 @@
             </div>
           </article>
 
-          <article class="project-tile reveal reveal-delay-5 js-project-tile" data-project="ecohistory" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: EcoHistory">
+          <article class="project-tile reveal reveal-delay-2 js-project-tile" data-project="ecohistory" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: EcoHistory">
             <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/ecohistory.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <img class="project-tile__cover" src="IMGS/ecohistory_autoral.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
               <div class="project-tile__scrim" aria-hidden="true"></div>
               <div class="project-tile__chrome">
                 <div class="project-tile__quick">
@@ -321,60 +252,15 @@
             </div>
           </article>
 
-          <article class="project-tile reveal reveal-delay-6 js-project-tile" data-project="rr" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: RR Pimentas">
+          <article class="project-tile reveal reveal-delay-3 js-project-tile" data-project="edo" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Edo Bistro">
             <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/rr.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <img class="project-tile__cover" src="IMGS/edo_autotal.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
               <div class="project-tile__scrim" aria-hidden="true"></div>
               <div class="project-tile__chrome">
                 <div class="project-tile__quick">
-                  <a href="https://github.com/kawehenri/rr_pimentas.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  <a href="http://aquafloww.site/Edo_Bistr-/" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo — Edo Bistro" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                   </a>
-                </div>
-              </div>
-              <div class="project-tile__body">
-                <div class="project-tile__text">
-                  <h3 class="project-tile__name">RR Pimentas — rótulos &amp; marca em HTML</h3>
-                  <p class="project-tile__meta">Design em código · Cliente / varejo</p>
-                </div>
-                <div class="project-tile__kudos" title="Escalável para impressão e PDF">
-                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
-                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">88</span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-tile reveal reveal-delay-7 js-project-tile" data-project="curriculo" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Currículos em código">
-            <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/curriculo.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
-              <div class="project-tile__scrim" aria-hidden="true"></div>
-              <div class="project-tile__chrome">
-                <div class="project-tile__quick">
-                  <a href="https://github.com/kawehenri/curriculo.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                  </a>
-                </div>
-              </div>
-              <div class="project-tile__body">
-                <div class="project-tile__text">
-                  <h3 class="project-tile__name">Currículos em código — PT/EN &amp; PDF</h3>
-                  <p class="project-tile__meta">Ferramenta · Tipografia · Autoral</p>
-                </div>
-                <div class="project-tile__kudos" title="Impressão consistente e controle total do layout">
-                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
-                  <span class="project-tile__kudos-num" aria-label="Indicador de impacto">64</span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-tile reveal reveal-delay-8 js-project-tile" data-project="edo" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Edo Bistro">
-            <div class="project-tile__inner">
-              <img class="project-tile__cover" src="IMGS/edo.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
-              <div class="project-tile__scrim" aria-hidden="true"></div>
-              <div class="project-tile__chrome">
-                <div class="project-tile__quick">
                   <a href="https://github.com/kawehenri/Edo_Bistr-.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                   </a>
@@ -382,12 +268,192 @@
               </div>
               <div class="project-tile__body">
                 <div class="project-tile__text">
-                  <h3 class="project-tile__name">Edo Bistro — conceito UX &amp; marketplace vertical</h3>
-                  <p class="project-tile__meta">Produto · Culinária japonesa · Exploração</p>
+                  <h3 class="project-tile__name">Edo Bistro — site &amp; conceito UX</h3>
+                  <p class="project-tile__meta">Web · Culinária japonesa · Projeto autoral</p>
                 </div>
                 <div class="project-tile__kudos" title="Wireframes e testes antes de escalar">
                   <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
                   <span class="project-tile__kudos-num" aria-label="Indicador de impacto">37</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-tile reveal reveal-delay-4 js-project-tile" data-project="mesas" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Tarsila — reserva de mesas">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/reservasdemesas_autoral.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="http://aquafloww.site/sistema_gest-o_mesa/" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo — Tarsila" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <a href="https://github.com/kawehenri/sistema_gest-o_mesa.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Tarsila — reserva de mesas &amp; lista de espera</h3>
+                  <p class="project-tile__meta">Web App · React · Demo restaurante</p>
+                </div>
+                <div class="project-tile__kudos" title="Fluxo completo de reserva no navegador">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num project-tile__kudos-num--label" aria-label="Indicador">Demo</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-tile reveal reveal-delay-5 js-project-tile" data-project="elloa" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Elloa — portfólio de judô">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/elloa_autoral.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://elloapessoa.site" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo — Elloa" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <a href="https://github.com/kawehenri/elloa.git" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Código" aria-label="Repositório no GitHub" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Elloa — portfólio de atleta de judô</h3>
+                  <p class="project-tile__meta">SPA · Media kit · React + Vite</p>
+                </div>
+                <div class="project-tile__kudos" title="Media kit: sobre, números, parcerias e galeria">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num project-tile__kudos-num--label" aria-label="Tipo de projeto">Kit</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <h3 class="projects-group__title projects-group__title--empresa reveal">DF Informática</h3>
+        <p class="projects-group__desc reveal">Entregas em produção durante o estágio.</p>
+        <div class="projects-showcase">
+
+          <article class="project-tile reveal js-project-tile" data-project="autentica" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Autentica Moda Femina">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/Autentica_empresa.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://autenticabysilvia.com.br" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Site ao vivo" aria-label="Site ao vivo — Autentica" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Autentica Moda Femina — e-commerce</h3>
+                  <p class="project-tile__meta">Loja online · Moda feminina · DF Informática</p>
+                </div>
+                <div class="project-tile__kudos" title="Cliente em produção">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num project-tile__kudos-num--label" aria-label="Status">Live</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-tile reveal reveal-delay-1 js-project-tile" data-project="calheiro" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Calheiro Orça Fácil">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/calheiro_empresa.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://app.calheiroorcafacil.com.br" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="App ao vivo" aria-label="App ao vivo — Calheiro" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Calheiro Orça Fácil — orçamentos mobile</h3>
+                  <p class="project-tile__meta">App · Calheiros · DF Informática</p>
+                </div>
+                <div class="project-tile__kudos" title="Cliente em produção">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num project-tile__kudos-num--label" aria-label="Status">Live</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-tile reveal reveal-delay-2 js-project-tile" data-project="ino9" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Ino9Sports">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/ino9_empresa.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://sistema.ino9sports.com" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Sistema ao vivo" aria-label="Sistema ao vivo — Ino9Sports" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Ino9Sports — personalização esportiva</h3>
+                  <p class="project-tile__meta">Sistema web · Loja · DF Informática</p>
+                </div>
+                <div class="project-tile__kudos" title="Cliente em produção">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num project-tile__kudos-num--label" aria-label="Status">Live</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-tile reveal reveal-delay-3 js-project-tile" data-project="tendtudo" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: TendTudo">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/tendtudo_empresa.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://tendtudojaru.com.br" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Sistema ao vivo" aria-label="Sistema ao vivo — TendTudo" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">TendTudo — gestão de frota</h3>
+                  <p class="project-tile__meta">Sistema web · Logística · DF Informática</p>
+                </div>
+                <div class="project-tile__kudos" title="Cliente em produção">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num project-tile__kudos-num--label" aria-label="Status">Live</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-tile reveal reveal-delay-4 js-project-tile" data-project="ecolimp" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Abrir detalhes: Ecolimp">
+            <div class="project-tile__inner">
+              <img class="project-tile__cover" src="IMGS/ecolimp_empresa.png" alt="" width="1280" height="720" loading="lazy" decoding="async" />
+              <div class="project-tile__scrim" aria-hidden="true"></div>
+              <div class="project-tile__chrome">
+                <div class="project-tile__quick">
+                  <a href="https://sistema.ecolimpdf.com/" target="_blank" rel="noopener noreferrer" class="project-tile__icon-btn" title="Sistema ao vivo" aria-label="Sistema ao vivo — Ecolimp" >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tile__body">
+                <div class="project-tile__text">
+                  <h3 class="project-tile__name">Ecolimp — gestão &amp; rotas</h3>
+                  <p class="project-tile__meta">Sistema web · Planejamento · DF Informática</p>
+                </div>
+                <div class="project-tile__kudos" title="Cliente em produção">
+                  <svg class="project-tile__thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                  <span class="project-tile__kudos-num project-tile__kudos-num--label" aria-label="Status">Live</span>
                 </div>
               </div>
             </div>
@@ -401,11 +467,11 @@
     <section id="experiencia" class="section section-experiencia">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">Currículo sintético</span>
+          <span class="section-tag">Trajetória</span>
           <h2 class="section-title">Experiência &amp; formação</h2>
           <div class="section-line"></div>
           <p class="section-desc">
-            Trajetória acadêmica e atuação profissional em desenvolvimento de software — alinhada a entregas reais e stack moderna.
+            Um panorama da minha caminhada — o currículo em PDF (botão no início) é a versão direta para vagas e ATS.
           </p>
         </div>
 
@@ -426,15 +492,12 @@
                   <span class="timeline-period">2025 – Presente</span>
                 </div>
                 <span class="timeline-place">DF Informática · Brasília/DF</span>
-                <ul class="timeline-list">
-                  <li>Implementação e evolução de sistemas web com PHP, Laravel, HTML, CSS e JavaScript</li>
-                  <li>Manutenção corretiva e evolutiva: bugs, refinos de UX e desempenho</li>
-                  <li>Modelagem de consultas e operações em banco de dados MySQL</li>
-                  <li>Fluxo de trabalho com Git, revisão de código e padrões de projeto</li>
-                  <li>Participação em planejamento, priorização e acompanhamento de entregas</li>
-                </ul>
+                <p class="timeline-desc">
+                  Ambiente onde aprendo a entregar software para terceiros: reuniões com cliente, priorização,
+                  integrações com APIs de pagamento e mensageria, e ciclos de release em web e mobile.
+                </p>
                 <div class="timeline-tags">
-                  <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Git</span>
+                  <span>Laravel</span><span>React</span><span>Flutter</span><span>MySQL</span><span>APIs</span>
                 </div>
               </div>
             </div>
@@ -519,6 +582,41 @@
           </div>
         </div>
 
+        <div class="work-context reveal">
+          <h3 class="work-context__title">O que faço na empresa (clientes)</h3>
+          <p class="work-context__lead">
+            Não são projetos autorais — faço parte do time que desenvolve e mantém sistemas contratados pela DF Informática.
+            Alguns domínios em que já atuei:
+          </p>
+          <div class="work-context__grid">
+            <article class="work-context__card">
+              <h4>Apps &amp; assinaturas</h4>
+              <p>Publicação e evolução de aplicativos nas lojas, com fluxos de pagamento integrados.</p>
+              <a href="https://app.calheiroorcafacil.com.br" target="_blank" rel="noopener noreferrer" class="work-context__link">Calheiro Orça Fácil</a>
+            </article>
+            <article class="work-context__card">
+              <h4>Gestão &amp; leads</h4>
+              <p>Sistemas que conectam WhatsApp, funis de venda e links externos ao negócio do cliente.</p>
+              <a href="https://sistema.iducali.com.br" target="_blank" rel="noopener noreferrer" class="work-context__link">iDucali</a>
+            </article>
+            <article class="work-context__card">
+              <h4>Saúde &amp; IA</h4>
+              <p>Sites institucionais com experiência digital e recursos de inteligência artificial.</p>
+              <a href="https://psykhedh.com.br" target="_blank" rel="noopener noreferrer" class="work-context__link">Psykhedh</a>
+            </article>
+            <article class="work-context__card">
+              <h4>E-commerce &amp; varejo</h4>
+              <p>Lojas online, checkout e comunicação com o cliente após a compra.</p>
+              <a href="https://autenticabysilvia.com.br" target="_blank" rel="noopener noreferrer" class="work-context__link">Autentica by Silvia</a>
+            </article>
+            <article class="work-context__card">
+              <h4>Presença local</h4>
+              <p>Experiências web com mapas e informação geográfica para o usuário final.</p>
+              <a href="https://tendtudojaru.com.br" target="_blank" rel="noopener noreferrer" class="work-context__link">TendTudo Jaru</a>
+            </article>
+          </div>
+        </div>
+
         <!-- Interesses -->
         <div class="interesses reveal">
           <h3 class="interesses-title">Frentes de aprofundamento</h3>
@@ -589,13 +687,13 @@
               </div>
             </a>
 
-            <a href="https://www.linkedin.com/in/kawehenri" target="_blank" rel="noopener noreferrer" class="contato-item">
+            <a href="https://www.linkedin.com/in/kaw%C3%AA-henrique-67308630a/" target="_blank" rel="noopener noreferrer" class="contato-item">
               <div class="contato-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
               </div>
               <div>
                 <span class="contato-label">LinkedIn</span>
-                <span class="contato-value">linkedin.com/in/kawehenri</span>
+                <span class="contato-value">linkedin.com/in/kawê-henrique</span>
               </div>
             </a>
 
@@ -630,6 +728,24 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal — escolher currículo PT ou EN -->
+    <div id="curriculoModal" class="project-modal curriculo-modal" hidden aria-hidden="true">
+      <div class="project-modal__backdrop" data-close-curriculo tabindex="-1"></div>
+      <div class="project-modal__panel curriculo-modal__panel" role="dialog" aria-modal="true" aria-labelledby="curriculoModalTitle">
+        <button type="button" class="project-modal__close" id="curriculoModalClose" aria-label="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <p class="project-modal__category">Documento para recrutadores</p>
+        <h2 class="project-modal__title" id="curriculoModalTitle">Baixar currículo em PDF</h2>
+        <p class="project-modal__subtitle">Versão objetiva (ATS) — escolha o idioma:</p>
+        <div class="curriculo-modal__actions">
+          <a href="curriculo/curriculobr.pdf" class="btn btn-primary btn-full" target="_blank" rel="noopener noreferrer" download>Português (PT-BR)</a>
+          <a href="curriculo/curriculoen.pdf" class="btn btn-outline btn-full" target="_blank" rel="noopener noreferrer" download>English (EN)</a>
+        </div>
+        <p class="curriculo-modal__hint">O PDF abre em nova aba. Para a história completa dos projetos, explore este site.</p>
+      </div>
+    </div>
 
     <!-- Modal de detalhes do projeto -->
     <div id="projectModal" class="project-modal" hidden aria-hidden="true">

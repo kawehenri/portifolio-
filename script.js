@@ -100,10 +100,10 @@ const typedEl = document.getElementById('typed-text');
 
 const phrases = [
   'Desenvolvedor full stack em formação',
-  'Engenharia de Software · UDF',
-  'APIs, interfaces e dados',
-  'PHP · Laravel · Python · React',
-  'Da especificação ao deploy',
+  'Da ideia ao app na loja',
+  'Web, mobile e integrações',
+  'Projetos autorais no GitHub',
+  'Aprendendo em produção na DF Informática',
 ];
 
 let phraseIndex  = 0;
@@ -300,41 +300,8 @@ const PROJECT_DATA = {
     context: 'Iniciação científica — hardware + software + presença web.',
     stack: 'Stack: Arduino · Python · MySQL · React Native · HTML/CSS',
     body: `<p>Plataforma de <strong>iniciação científica</strong> que une hardware (Arduino), software e presença web: automação da irrigação, monitoramento e landing institucional com narrativa técnica, benefícios, FAQ e roadmap. Objetivo central: <strong>reduzir desperdício de água e energia</strong> sem sacrificar produtividade agrícola.</p>`,
-    urlLive: 'http://aquafloww.site/',
+    urlLive: 'https://aquafloww.site/',
     urlCode: 'https://github.com/kawehenri/kawehenri.github.io.git',
-  },
-  gerenciador: {
-    category: 'App desktop',
-    title: 'Gerenciador de tarefas',
-    subtitle: 'Python + Flet · modelo de dados em SQLite.',
-    impact: '100% offline: dados persistidos localmente, sem servidor.',
-    context: 'Projeto acadêmico — produtividade pessoal.',
-    stack: 'Stack: Python · Flet · SQLite',
-    body: `<p>Aplicação <strong>Python + Flet</strong> com modelo de dados em <strong>SQLite</strong>: categorias, prioridades e persistência local. Interface objetiva para produtividade pessoal; distribuição via ambiente de desenvolvimento — código versionado e pronto para evolução (empacotamento ou nuvem).</p>`,
-    urlLive: '',
-    urlCode: 'https://github.com/kawehenri/gerenciador_de_tarefas.git',
-  },
-  barbearia: {
-    category: 'Web App · SaaS-ready',
-    title: 'BarboX · gestão de barbearia',
-    subtitle: 'Laravel + React · API REST com Sanctum.',
-    impact: '−35% no tempo de agendamento (fluxo digital vs. manual).',
-    context: 'Projeto acadêmico full stack.',
-    stack: 'Stack: PHP · Laravel · React · MySQL · REST API · Sanctum',
-    body: `<p>Ecossistema <strong>Laravel + React</strong> para operação de barbearia: <strong>API REST</strong> com <strong>Laravel Sanctum</strong>, regras de negócio e MySQL; painel administrativo, portal do cliente, agendamentos e cadastro de serviços. Arquitetura preparada para crescer — pagamentos, notificações e multiunidade.</p>`,
-    urlLive: '',
-    urlCode: 'https://github.com/kawehenri/projeto_barbearia.git',
-  },
-  neymar: {
-    category: 'Web · PWA',
-    title: 'NJR Legacy',
-    subtitle: 'Site estático de alto volume informativo.',
-    impact: 'Leitura mobile-first · conteúdo longform com PWA instalável.',
-    context: 'Portfólio editorial e exercício de marca.',
-    stack: 'Stack: HTML · CSS · JavaScript · PWA · Node (opcional)',
-    body: `<p>Site estático de alto volume informativo: arquitetura multipágina, conteúdo longform, performance e <strong>PWA</strong> (manifest + service worker). Formulário de contato com backend Node opcional; layout responsivo pensado para leitura e compartilhamento — exercício de marca, SEO básico e acessibilidade.</p>`,
-    urlLive: 'https://njrlegacy.gt.tc',
-    urlCode: 'https://github.com/kawehenri/site_neymar.git',
   },
   myroutine: {
     category: 'Web App · PWA',
@@ -358,38 +325,93 @@ const PROJECT_DATA = {
     urlLive: 'http://aquafloww.site/EcoHistory/',
     urlCode: 'https://github.com/kawehenri/EcoHistory.git',
   },
-  rr: {
-    category: 'Design em código',
-    title: 'RR Pimentas',
-    subtitle: 'Rótulos e identidade em HTML.',
-    impact: 'Peças escaláveis para impressão ou PDF com consistência de marca.',
-    context: 'Cliente real / varejo gourmet.',
-    stack: 'Stack: HTML · Design · Marca',
-    body: `<p>Sistema de <strong>rótulos e peças gráficas em HTML</strong> para varejo de temperos e pimentas: consistência visual, escalabilidade para impressão ou exportação PDF e narrativa de marca alinhada ao posicionamento gourmet — design aplicado com rigor tipográfico e reprodutibilidade.</p>`,
-    urlLive: '',
-    urlCode: 'https://github.com/kawehenri/rr_pimentas.git',
-  },
-  curriculo: {
-    category: 'Ferramenta',
-    title: 'Currículos parametrizados em código',
-    subtitle: 'Variantes PT/EN e pipeline para PDF.',
-    impact: 'Tipografia e grid sob controle — impressão consistente.',
-    context: 'Projeto autoral (inclui o meu CV).',
-    stack: 'Stack: HTML · CSS · JavaScript',
-    body: `<p>Modelos de CV em <strong>HTML, CSS e JavaScript</strong> (incluindo o meu), com variantes <strong>PT/EN</strong> e pipeline para <strong>PDF</strong>. Tipografia, grid e hierarquia sob controle total — alternativa profissional a editores genéricos, com foco em clareza e impressão consistente.</p>`,
-    urlLive: '',
-    urlCode: 'https://github.com/kawehenri/curriculo.git',
-  },
   edo: {
-    category: 'Conceito de produto',
+    category: 'Web · UX',
     title: 'Edo Bistro',
-    subtitle: 'Marketplace vertical para culinária japonesa.',
+    subtitle: 'Site e conceito de produto para culinária japonesa.',
     impact: 'Validação de UX antes de escalar — wireframes e testes de interface.',
-    context: 'Exploração / portfolio de produto.',
-    stack: 'Stack: Conceito · Web · UX',
-    body: `<p>Exploração de <strong>marketplace de reviews verticais</strong> para culinária japonesa — do sashimi ao <strong>omakase</strong>. Hipóteses de UX, taxonomia de pratos e critérios culturais; repositório concentra wireframes, protótipos e testes de interface para validar proposta antes de escalar.</p>`,
-    urlLive: '',
+    context: 'Projeto autoral.',
+    stack: 'Stack: HTML · CSS · JavaScript · UX',
+    body: `<p>Site e exploração de <strong>marketplace de reviews verticais</strong> para culinária japonesa — do sashimi ao <strong>omakase</strong>. Hipóteses de UX, taxonomia de pratos e critérios culturais; protótipo publicado com fluxo navegável para validar proposta antes de escalar.</p>`,
+    urlLive: 'http://aquafloww.site/Edo_Bistr-/',
     urlCode: 'https://github.com/kawehenri/Edo_Bistr-.git',
+  },
+  mesas: {
+    category: 'Web App · Demo',
+    title: 'Tarsila — reserva de mesas',
+    subtitle: 'Fluxo de reserva, lista de espera e vitrine de restaurante.',
+    impact: 'Demonstração interativa: data, horário e número de pessoas no browser.',
+    context: 'Projeto autoral — demo de experiência gastronômica.',
+    stack: 'Stack: React · TypeScript · Vite',
+    body: `<p>Demonstração de <strong>restaurante fictício</strong> (Tarsila Cozinha Brasil) com cardápio, avaliações, unidades e fluxo completo de <strong>reserva de mesa</strong> e <strong>lista de espera</strong> — tudo no navegador, sem backend em produção. Foco em UX de agendamento e narrativa visual de marca.</p>`,
+    urlLive: 'http://aquafloww.site/sistema_gest-o_mesa/',
+    urlCode: 'https://github.com/kawehenri/sistema_gest-o_mesa.git',
+  },
+  elloa: {
+    category: 'Web · Media kit',
+    title: 'Elloa — portfólio de atleta',
+    subtitle: 'Site de apresentação para atleta de judô.',
+    impact: 'Media kit completo: sobre, números, parcerias, galeria e contato.',
+    context: 'Projeto autoral.',
+    stack: 'Stack: React · TypeScript · Vite · Tailwind CSS',
+    body: `<p>Página única em <strong>React + Vite + Tailwind</strong> para apresentar um atleta de judô a patrocinadores e público: seções de biografia, conquistas, parcerias, galeria de mídia e contato. Conteúdo centralizado em arquivo de configuração para facilitar atualizações sem reescrever componentes.</p>`,
+    urlLive: 'https://elloapessoa.site',
+    urlCode: 'https://github.com/kawehenri/elloa.git',
+  },
+  autentica: {
+    category: 'DF Informática · E-commerce',
+    title: 'Autentica Moda Femina',
+    subtitle: 'Loja online de moda feminina.',
+    impact: 'Vitrine e checkout em produção para cliente real.',
+    context: 'Estágio na DF Informática — entrega para cliente.',
+    stack: 'Stack: Web · E-commerce · Integrações',
+    body: `<p><strong>E-commerce de moda feminina</strong> desenvolvido no contexto do estágio na DF Informática: catálogo, experiência de compra e operação voltada ao varejo de vestuário. Sistema em uso pelo cliente em produção.</p>`,
+    urlLive: 'https://autenticabysilvia.com.br',
+    urlCode: '',
+  },
+  calheiro: {
+    category: 'DF Informática · Mobile',
+    title: 'Calheiro Orça Fácil',
+    subtitle: 'Orçamentos para calheiros no celular.',
+    impact: 'Fluxo mobile-first para orçar serviços em campo.',
+    context: 'Estágio na DF Informática — entrega para cliente.',
+    stack: 'Stack: Web App · Mobile · PWA',
+    body: `<p>Aplicação <strong>mobile-first</strong> para calheiros montarem e enviarem orçamentos direto do celular, reduzindo papelada e acelerando o retorno ao cliente. Em produção na DF Informática.</p>`,
+    urlLive: 'https://app.calheiroorcafacil.com.br',
+    urlCode: '',
+  },
+  ino9: {
+    category: 'DF Informática · Sistema web',
+    title: 'Ino9Sports',
+    subtitle: 'Personalização de materiais esportivos.',
+    impact: 'Gestão de pedidos e customização para loja esportiva.',
+    context: 'Estágio na DF Informática — entrega para cliente.',
+    stack: 'Stack: Web · Gestão · Laravel/React (conforme stack interna)',
+    body: `<p>Sistema para loja de <strong>personalização de materiais esportivos</strong>: fluxo de pedidos, customização de produtos e operação do negócio em ambiente web. Solução mantida em produção pela equipe da DF Informática.</p>`,
+    urlLive: 'https://sistema.ino9sports.com',
+    urlCode: '',
+  },
+  tendtudo: {
+    category: 'DF Informática · Gestão',
+    title: 'TendTudo',
+    subtitle: 'Gestão de frota e operação logística.',
+    impact: 'Controle centralizado de veículos e rotinas da frota.',
+    context: 'Estágio na DF Informática — entrega para cliente.',
+    stack: 'Stack: Web · Gestão de frota',
+    body: `<p><strong>Sistema de gestão de frota</strong> para acompanhar veículos, operações e rotinas logísticas do cliente. Ferramenta web em produção, usada no dia a dia da operação.</p>`,
+    urlLive: 'https://tendtudojaru.com.br',
+    urlCode: '',
+  },
+  ecolimp: {
+    category: 'DF Informática · Gestão',
+    title: 'Ecolimp',
+    subtitle: 'Gestão empresarial com foco em rotas.',
+    impact: 'Planejamento de rotas integrado à operação do negócio.',
+    context: 'Estágio na DF Informática — entrega para cliente.',
+    stack: 'Stack: Web · Gestão · Mapas/rotas',
+    body: `<p>Sistema de <strong>gestão empresarial</strong> com ênfase em <strong>planejamento de rotas</strong> e organização operacional. Desenvolvido no estágio na DF Informática e utilizado pelo cliente em ambiente de produção.</p>`,
+    urlLive: 'https://sistema.ecolimpdf.com/',
+    urlCode: '',
   },
 };
 
@@ -426,7 +448,12 @@ function openProjectModal(id) {
     projectModalLive.hidden = true;
   }
 
-  projectModalCode.href = d.urlCode;
+  if (d.urlCode) {
+    projectModalCode.href = d.urlCode;
+    projectModalCode.hidden = false;
+  } else {
+    projectModalCode.hidden = true;
+  }
 
   projectModalLastFocus = document.activeElement;
   projectModal.removeAttribute('hidden');
@@ -479,4 +506,50 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && projectModal && !projectModal.hasAttribute('hidden')) {
     closeProjectModal();
   }
+  if (e.key === 'Escape' && curriculoModal && !curriculoModal.hasAttribute('hidden')) {
+    closeCurriculoModal();
+  }
 });
+
+
+/* ──────────────────────────────────────────────
+   10. MODAL CURRÍCULO — PT-BR ou EN (PDF)
+────────────────────────────────────────────── */
+const btnVerCurriculo    = document.getElementById('btnVerCurriculo');
+const curriculoModal     = document.getElementById('curriculoModal');
+const curriculoModalClose = document.getElementById('curriculoModalClose');
+let curriculoModalLastFocus = null;
+
+function openCurriculoModal() {
+  if (!curriculoModal) return;
+  curriculoModalLastFocus = document.activeElement;
+  curriculoModal.removeAttribute('hidden');
+  curriculoModal.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+  curriculoModalClose.focus();
+}
+
+function closeCurriculoModal() {
+  if (!curriculoModal || curriculoModal.hasAttribute('hidden')) return;
+  curriculoModal.setAttribute('hidden', '');
+  curriculoModal.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+  if (curriculoModalLastFocus && typeof curriculoModalLastFocus.focus === 'function') {
+    curriculoModalLastFocus.focus();
+  }
+  curriculoModalLastFocus = null;
+}
+
+if (btnVerCurriculo) {
+  btnVerCurriculo.addEventListener('click', openCurriculoModal);
+}
+
+if (curriculoModalClose) {
+  curriculoModalClose.addEventListener('click', closeCurriculoModal);
+}
+
+if (curriculoModal) {
+  curriculoModal.addEventListener('click', e => {
+    if (e.target.closest('[data-close-curriculo]')) closeCurriculoModal();
+  });
+}

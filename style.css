@@ -588,10 +588,50 @@ img { max-width: 100%; display: block; }
   line-height: 1.6;
 }
 
+.projects-group__title {
+  margin: clamp(32px, 5vw, 48px) 0 clamp(16px, 2.5vw, 20px);
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--clr-white);
+}
+
+.projects-group__title:first-of-type {
+  margin-top: 0;
+}
+
+.projects-group__title--empresa {
+  margin-top: clamp(40px, 6vw, 56px);
+  padding-top: clamp(24px, 4vw, 32px);
+  border-top: 1px solid var(--clr-border);
+}
+
+.projects-group__desc {
+  margin: -8px 0 clamp(16px, 2.5vw, 20px);
+  max-width: 520px;
+  font-size: 0.9rem;
+  color: var(--clr-text-muted);
+  line-height: 1.5;
+}
+
+.projects-showcase + .projects-group__title {
+  margin-top: clamp(40px, 6vw, 56px);
+}
+
+.project-tile__kudos-num--label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  min-width: 2.25rem;
+  text-align: center;
+}
+
 .projects-showcase {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(16px, 2.2vw, 24px);
+  margin-bottom: clamp(8px, 2vw, 16px);
 }
 
 @media (min-width: 1200px) {
@@ -1177,6 +1217,93 @@ img { max-width: 100%; display: block; }
 }
 
 .interesse-icon { font-size: 1.1rem; }
+
+/* Contexto de trabalho (clientes — narrativa, não espelho do CV) */
+.work-context {
+  margin-top: 48px;
+  padding-top: 40px;
+  border-top: 1px solid var(--clr-border);
+}
+
+.work-context__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--clr-white);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.work-context__lead {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 28px;
+  font-size: 0.92rem;
+  color: var(--clr-text-muted);
+  line-height: 1.7;
+}
+
+.work-context__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.work-context__card {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius);
+  padding: 18px 16px;
+  transition: border-color var(--trans), transform var(--trans);
+}
+
+.work-context__card:hover {
+  border-color: rgba(59, 130, 246, 0.35);
+  transform: translateY(-2px);
+}
+
+.work-context__card h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--clr-white);
+  margin-bottom: 8px;
+}
+
+.work-context__card p {
+  font-size: 0.82rem;
+  color: var(--clr-text-muted);
+  line-height: 1.55;
+  margin-bottom: 10px;
+}
+
+.work-context__link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--clr-accent-2);
+}
+
+.work-context__link:hover {
+  text-decoration: underline;
+}
+
+/* Modal currículo */
+.curriculo-modal__panel {
+  width: min(400px, 100%);
+}
+
+.curriculo-modal__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0 12px;
+}
+
+.curriculo-modal__hint {
+  font-size: 0.78rem;
+  color: var(--clr-text-dim);
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
 
 /* ============================================================
    CONTATO
